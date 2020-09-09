@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="1540932.img"><imgdir name="info"><int name="hideName" value="1"/><int name="skeleton" value="1"/><imgdir name="spine"><canvas name="sos_03.png" width="909" height="1004"><vector name="origin" x="454" y="502"/><int name="z" value="0"/><string name="_hash" value="3ef48e9b1326e3664b39f6f4400718f444856e3f64d5e9ee67f985f035beef41"/></canvas><canvas name="sos_032.png" width="909" height="982"><vector name="origin" x="454" y="491"/><int name="z" value="0"/><string name="_hash" value="9f126b684c4576363b3027347930663fa98bb9ab53058ebb060811f273fd8392"/></canvas><canvas name="sos_033.png" width="1023" height="916"><vector name="origin" x="511" y="458"/><int name="z" value="0"/><string name="_hash" value="133210e100c1cbe2158970692febe7c831e25d2d43e6e0ebb103fd547b385aa8"/></canvas><canvas name="sos_034.png" width="871" height="871"><vector name="origin" x="435" y="435"/><int name="z" value="0"/><string name="_hash" value="fd7ffa4895733903fb835dcd65cb54ab2f28aeaf3f790fc44acd919d997361c6"/></canvas><sound name="1540932"/><string name="1540932.atlas" value="
+sos_03.png
+size: 909,1004
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B_RING
+  rotate: false
+  xy: 325, 846
+  size: 179, 157
+  orig: 179, 157
+  offset: 0, 0
+  index: -1
+B_RING_A
+  rotate: false
+  xy: 677, 813
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+B_RING_S
+  rotate: false
+  xy: 1, 771
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+LEP_A
+  rotate: false
+  xy: 107, 969
+  size: 52, 34
+  orig: 52, 34
+  offset: 0, 0
+  index: -1
+LEP_B
+  rotate: false
+  xy: 160, 962
+  size: 50, 41
+  orig: 50, 41
+  offset: 0, 0
+  index: -1
+LEP_C
+  rotate: false
+  xy: 37, 975
+  size: 38, 28
+  orig: 38, 28
+  offset: 0, 0
+  index: -1
+LEP_D
+  rotate: false
+  xy: 1, 976
+  size: 35, 27
+  orig: 35, 27
+  offset: 0, 0
+  index: -1
+LEP_E
+  rotate: false
+  xy: 76, 975
+  size: 30, 28
+  orig: 30, 28
+  offset: 0, 0
+  index: -1
+RING_B
+  rotate: false
+  xy: 211, 912
+  size: 113, 91
+  orig: 113, 91
+  offset: 0, 0
+  index: -1
+al/001
+  rotate: true
+  xy: 192, 643
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/002
+  rotate: true
+  xy: 419, 629
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/003
+  rotate: true
+  xy: 646, 610
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/004
+  rotate: true
+  xy: 1, 440
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/005
+  rotate: true
+  xy: 228, 426
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/006
+  rotate: true
+  xy: 455, 407
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/007
+  rotate: true
+  xy: 682, 407
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/008
+  rotate: true
+  xy: 1, 237
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/009
+  rotate: true
+  xy: 228, 223
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/010
+  rotate: true
+  xy: 455, 204
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/011
+  rotate: true
+  xy: 682, 204
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/012
+  rotate: true
+  xy: 1, 34
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/a_001
+  rotate: true
+  xy: 228, 20
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/a_002
+  rotate: true
+  xy: 455, 1
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/a_003
+  rotate: true
+  xy: 682, 1
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+one_light_B
+  rotate: false
+  xy: 505, 832
+  size: 171, 171
+  orig: 171, 171
+  offset: 0, 0
+  index: -1
+
+sos_032.png
+size: 909,982
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+RING_A
+  rotate: false
+  xy: 467, 343
+  size: 244, 232
+  orig: 244, 232
+  offset: 0, 0
+  index: -1
+RING_C
+  rotate: false
+  xy: 228, 344
+  size: 238, 231
+  orig: 238, 231
+  offset: 0, 0
+  index: -1
+al/a_004
+  rotate: true
+  xy: 1, 779
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/a_005
+  rotate: true
+  xy: 228, 779
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/a_006
+  rotate: true
+  xy: 455, 779
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/a_007
+  rotate: true
+  xy: 682, 779
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/a_008
+  rotate: true
+  xy: 1, 576
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/a_009
+  rotate: true
+  xy: 228, 576
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/a_010
+  rotate: true
+  xy: 455, 576
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/a_011
+  rotate: true
+  xy: 682, 576
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+al/a_012
+  rotate: true
+  xy: 1, 373
+  size: 202, 226
+  orig: 202, 226
+  offset: 0, 0
+  index: -1
+one_light_A
+  rotate: false
+  xy: 445, 1
+  size: 343, 341
+  orig: 343, 341
+  offset: 0, 0
+  index: -1
+smoke_B
+  rotate: false
+  xy: 1, 28
+  size: 443, 315
+  orig: 443, 315
+  offset: 0, 0
+  index: -1
+
+sos_033.png
+size: 1023,916
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B_RING_B
+  rotate: false
+  xy: 591, 1
+  size: 431, 492
+  orig: 431, 492
+  offset: 0, 0
+  index: -1
+RING_D
+  rotate: false
+  xy: 1, 68
+  size: 589, 425
+  orig: 589, 425
+  offset: 0, 0
+  index: -1
+one_light_C
+  rotate: false
+  xy: 1, 562
+  size: 353, 353
+  orig: 353, 353
+  offset: 0, 0
+  index: -1
+smoke_A
+  rotate: true
+  xy: 355, 494
+  size: 421, 433
+  orig: 421, 433
+  offset: 0, 0
+  index: -1
+
+sos_034.png
+size: 871,871
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bbb
+  rotate: false
+  xy: 1, 1
+  size: 869, 869
+  orig: 869, 869
+  offset: 0, 0
+  index: -1
+"/></imgdir><imgdir name="illustration2"><canvas name="base" width="285" height="278"><vector name="origin" x="38" y="132"/><int name="z" value="0"/><string name="_hash" value="978364f3629ee6dbc3037a487329ff96ac417208f1110d449c9f05710abcdb85"/></canvas><imgdir name="face"><canvas name="0" width="139" height="61"><vector name="origin" x="-56" y="-14"/><int name="z" value="0"/><string name="_hash" value="fa6b17ebf8e1213c17e0975a91e2f2a55935a729e5efc39485a662b684b109aa"/></canvas></imgdir></imgdir></imgdir><imgdir name="stand"><string name="aniName" value="animation_00"/></imgdir><imgdir name="special1"><string name="aniName" value="animation_01"/><int name="special" value="1"/></imgdir><imgdir name="special2"><string name="aniName" value="animation_02"/><int name="special" value="1"/></imgdir></imgdir>

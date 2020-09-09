@@ -1,0 +1,10 @@
+diff a/AzureMSv316/property/ServerSettings.properties b/AzureMSv316/property/ServerSettings.properties	(rejected hunks)
+@@ -11,7 +11,7 @@
+ #   [��������]
+ MaxDrop = 4
+ BossMaxDrop = 30
+-ChannelCount = 1
++ChannelCount = 31
+ 
+ #   [�ڵ� ��Ÿ�� ����]
+ IsAutoHotTime = true

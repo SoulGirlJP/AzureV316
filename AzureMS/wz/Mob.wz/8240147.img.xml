@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="8240147.img"><imgdir name="info"><int name="boss" value="1"/><int name="level" value="150"/><int name="maxHP" value="60000000"/><int name="maxMP" value="1000000"/><int name="hpTagColor" value="1"/><int name="hpTagBgcolor" value="5"/><int name="acc" value="203"/><int name="eva" value="51"/><int name="speed" value="50"/><int name="pushed" value="2000000000"/><float name="fs" value="10.0"/><int name="category" value="0"/><int name="summonType" value="1"/><string name="mobType" value="1N"/><int name="hideHP" value="1"/><int name="PADamage" value="1000"/><int name="PDDamage" value="1000"/><int name="MADamage" value="1000"/><int name="MDDamage" value="1000"/><int name="firstAttack" value="1"/><int name="ignoreMoveImpact" value="1"/><int name="skeleton" value="1"/><int name="nonLevelCheckEVA" value="1"/><int name="nonLevelCheckACC" value="1"/><int name="skelAniMixRate" value="0"/><imgdir name="firstAttackRange"><vector name="lt" x="-1024" y="-800"/><vector name="rb" x="1024" y="800"/></imgdir><imgdir name="attack"><imgdir name="0"><string name="info" value="밀치기 넉백 공격"/><int name="action" value="1"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="fixDamR" value="5"/><int name="cooltime" value="8000"/><int name="afterDelay" value="6000"/><int name="ignoreStance" value="100"/><int name="notMissAttack" value="1"/><int name="ignoreEvasion" value="100"/><int name="knockback" value="1"/></imgdir><imgdir name="1"><string name="info" value="내려찍기, 아래로 넉백 공격 밀치기와 연계하기 쉽게 돌무더기 소환"/><int name="action" value="2"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="fixDamR" value="5"/><int name="cooltime" value="8000"/><int name="afterDelay" value="6000"/><int name="ignoreStance" value="100"/><int name="ignoreEvasion" value="100"/><int name="notMissAttack" value="1"/><int name="dragdown" value="1"/><int name="jumpAttack" value="1"/><imgdir name="jumpAttackInfo"><int name="impact" value="1000"/><int name="min" value="60"/><int name="max" value="120"/></imgdir><imgdir name="callSkillWithData"><int name="skill" value="201"/><int name="level" value="176"/><int name="delay" value="2000"/></imgdir></imgdir></imgdir><imgdir name="skill"><imgdir name="0"><string name="info" value="돌무더기소환, 액션없이"/><int name="action" value="1"/><int name="skill" value="201"/><int name="level" value="176"/><int name="skillAfter" value="500"/><int name="afterDelay" value="3000"/><int name="onlyOtherSkill" value="1"/></imgdir></imgdir><imgdir name="speak"><int name="chatBalloon" value="0"/><imgdir name="0"><int name="hp" value="50000000"/><string name="0" value="소용없다. 나는 왕의 명을 받아 유적을 지키는 불멸의 존재!"/></imgdir><imgdir name="1"><int name="hp" value="30000000"/><string name="0" value="그렇다. 미천한 너희들의 마법으로는 나를 쓰러트릴 수 없다!"/></imgdir><imgdir name="2"><int name="hp" value="20000000"/><string name="0" value="그렇다. 나는 문지기!"/></imgdir><imgdir name="3"><int name="hp" value="10000000"/><string name="0" value="그렇다. 미천한 너희들의 마법으로는 나를 쓰러트릴 수 없다!"/><string name="1" value="소용없다. 나는 왕의 명을 받아 유적을 지키는 불멸의 존재!"/><string name="2" value="그렇다. 나는 문지기!"/></imgdir></imgdir><imgdir name="damagedBySelectedSkill"><int name="0" value="80001910"/><int name="1" value="80001911"/><int name="2" value="80001912"/><int name="3" value="80001913"/><int name="4" value="80001914"/><int name="5" value="80001915"/><int name="6" value="80001916"/></imgdir></imgdir><imgdir name="attack1"><imgdir name="info"><imgdir name="range"><vector name="lt" x="-480" y="-150"/><vector name="rb" x="50" y="-10"/></imgdir><imgdir name="hit"><canvas name="0" width="1" height="1"><vector name="origin" x="47" y="63"/><int name="z" value="0"/><string name="_hash" value="d00a1911bf4e05543c1b77035a2519224fd853a6f968bdd6444a53d643917204"/><string name="_outlink" value="Mob/2600117.img/attack1/info/hit/0"/></canvas><canvas name="1" width="1" height="1"><vector name="origin" x="54" y="71"/><int name="z" value="0"/><string name="_hash" value="e86af8202aa4db7921726587793d6d8e8cf23eb9befd6bad60ce50a977e20b3d"/><string name="_outlink" value="Mob/2600117.img/attack1/info/hit/1"/></canvas><canvas name="2" width="1" height="1"><vector name="origin" x="79" y="82"/><int name="z" value="0"/><string name="_hash" value="f98c7008bfaad3818f9985da72a2e35dbe0bcaa7025ea9b09a541783eb9474d8"/><string name="_outlink" value="Mob/2600117.img/attack1/info/hit/2"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="79" y="83"/><int name="z" value="0"/><string name="_hash" value="d3f3d1a117e1d9e5584be9b0e300aa676894f8f89892f5d6854da95e49dd24d8"/><string name="_outlink" value="Mob/2600117.img/attack1/info/hit/3"/></canvas></imgdir><int name="attackAfter" value="2160"/></imgdir><string name="aniName" value="06_attack_B"/></imgdir><imgdir name="attack2"><imgdir name="info"><imgdir name="range"><vector name="lt" x="-400" y="-600"/><vector name="rb" x="0" y="10"/></imgdir><imgdir name="hit"><int name="attach" value="1"/><canvas name="0" width="1" height="1"><vector name="origin" x="75" y="76"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="adb1a34eb46678023a9cecf2d94ec83857b3f18d9bb5fdeb5828f8cb6585a005"/><string name="_outlink" value="Mob/2600117.img/attack2/info/hit/0"/></canvas><canvas name="1" width="1" height="1"><vector name="origin" x="69" y="90"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="dff1577458a5f125f93408d6ef1b3dadfb07f537beb6330b178559171d346fc5"/><string name="_outlink" value="Mob/2600117.img/attack2/info/hit/1"/></canvas><canvas name="2" width="1" height="1"><vector name="origin" x="76" y="85"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="3cae98327efcb2edd6e711e31f1ec9d95ee8512f7fd979187f777447e8452ac2"/><string name="_outlink" value="Mob/2600117.img/attack2/info/hit/2"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="80" y="83"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="46e0efc93a8f2415468c130fffe38ab547053ff5528e2a7e3a0b6841b8b0a683"/><string name="_outlink" value="Mob/2600117.img/attack2/info/hit/3"/></canvas></imgdir><int name="attackAfter" value="1650"/></imgdir><string name="aniName" value="05_attack_A"/></imgdir><imgdir name="skill1"><string name="aniName" value="07_attack_C"/></imgdir><imgdir name="move"><string name="aniName" value="03_move"/></imgdir><imgdir name="stand"><string name="aniName" value="02_stand"/></imgdir><imgdir name="die1"><string name="aniName" value="08_die"/></imgdir><imgdir name="sleep"><string name="aniName" value="00_bit stand"/></imgdir><imgdir name="wakeup"><string name="aniName" value="01_summon"/></imgdir><imgdir name="say"><string name="aniName" value="04_tire"/></imgdir><imgdir name="HitParts"><imgdir name="1"><string name="info" value="Hardness"/><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="80"/><int name="hardness" value="100"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/><string name="replaceHitEffect" value="Mob/8881000.img/HitEffect/0"/><string name="replaceHitSound" value="Sound/SoundEff.img/urus/hardHit"/></imgdir><imgdir name="breakEvent"><string name="info" value="info에 durability가 없으면 사용불가"/><string name="changeAction" value="tire"/><imgdir name="slotAttachment"></imgdir><imgdir name="effect"></imgdir></imgdir></imgdir></imgdir><imgdir name="2"><string name="info" value="Weakness"/><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="99999999"/><int name="hardness" value="50"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/><string name="replaceHitEffect" value="Mob/8881000.img/HitEffect/1"/><string name="replaceHitSound" value="Sound/SoundEff.img/urus/midHit"/></imgdir><imgdir name="breakEvent"><string name="info" value="info에 durability가 없으면 사용불가"/><imgdir name="slotAttachment"></imgdir><imgdir name="effect"></imgdir></imgdir></imgdir></imgdir></imgdir><imgdir name="HitBlendEffect"><imgdir name="info"><int name="alpha" value="80"/><int name="red" value="255"/><int name="green" value="255"/><int name="blue" value="255"/><int name="loopCount" value="3"/><int name="delay" value="200"/></imgdir><imgdir name="HitPartsToSlot"><imgdir name="1"><string name="L_arm_A" value="L_arm_A"/><string name="L_arm_B_01" value="L_arm_B_01"/><string name="L_arm_B_02" value="L_arm_B_02"/><string name="L_arm_B_03" value="L_arm_B_03"/><string name="L_arm_B_04" value="L_arm_B_04"/><string name="L_arm_C_01" value="L_arm_C_01"/><string name="L_arm_C_02" value="L_arm_C_02"/><string name="L_arm_C_03" value="L_arm_C_03"/><string name="L_arm_C_04" value="L_arm_C_04"/><string name="L_arm_C_05" value="L_arm_C_05"/><string name="head copy" value="head copy"/><string name="r_arm_A" value="r_arm_A"/><string name="r_arm_B_01" value="r_arm_B_01"/><string name="r_arm_B_02" value="r_arm_B_02"/><string name="r_arm_B_03" value="r_arm_B_03"/><string name="r_arm_B_04" value="r_arm_B_04"/><string name="r_arm_C_01" value="r_arm_C_01"/><string name="r_arm_C_02" value="r_arm_C_02"/><string name="r_arm_C_03" value="r_arm_C_03"/><string name="r_arm_C_04" value="r_arm_C_04"/><string name="r_arm_C_05" value="r_arm_C_05"/><string name="L_leg" value="L_leg"/><string name="R_leg" value="R_leg"/><string name="body_01" value="body_01"/><string name="body_02" value="body_02"/><string name="body_03" value="body_03"/><string name="body_04" value="body_04"/><string name="body_05" value="body_05"/><string name="body_06" value="body_06"/><string name="body_07" value="body_07"/><string name="body_08" value="body_08"/><string name="body_09" value="body_09"/><string name="body_10" value="body_10"/><string name="body_back" value="body_back"/></imgdir><imgdir name="2"><string name="body_core_1" value="body_core_1"/></imgdir></imgdir></imgdir><string name="8240147.atlas" value="
+shimma.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm_A_core
+  rotate: true
+  xy: 946, 64
+  size: 51, 40
+  orig: 51, 40
+  offset: 0, 0
+  index: -1
+L_arm_B_01
+  rotate: true
+  xy: 998, 732
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+r_arm_B_01
+  rotate: true
+  xy: 998, 732
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+L_arm_B_02
+  rotate: false
+  xy: 998, 792
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+r_arm_B_02
+  rotate: false
+  xy: 998, 792
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+L_arm_B_04
+  rotate: false
+  xy: 526, 478
+  size: 60, 44
+  orig: 60, 44
+  offset: 0, 0
+  index: -1
+L_arm_B_04_grow
+  rotate: true
+  xy: 946, 2
+  size: 60, 44
+  orig: 60, 44
+  offset: 0, 0
+  index: -1
+L_arm_C_01
+  rotate: true
+  xy: 437, 6
+  size: 84, 73
+  orig: 84, 73
+  offset: 0, 0
+  index: -1
+L_leg
+  rotate: false
+  xy: 838, 116
+  size: 46, 41
+  orig: 46, 41
+  offset: 0, 0
+  index: -1
+L_leg_grow
+  rotate: false
+  xy: 886, 116
+  size: 46, 41
+  orig: 46, 41
+  offset: 0, 0
+  index: -1
+body_03
+  rotate: false
+  xy: 988, 108
+  size: 34, 49
+  orig: 34, 49
+  offset: 0, 0
+  index: -1
+body_04
+  rotate: true
+  xy: 934, 117
+  size: 40, 52
+  orig: 40, 52
+  offset: 0, 0
+  index: -1
+body_11
+  rotate: true
+  xy: 587, 8
+  size: 82, 97
+  orig: 82, 97
+  offset: 0, 0
+  index: -1
+effect/bit_01
+  rotate: false
+  xy: 2, 785
+  size: 588, 237
+  orig: 588, 237
+  offset: 0, 0
+  index: -1
+effect/bit_02
+  rotate: true
+  xy: 2, 461
+  size: 322, 50
+  orig: 322, 50
+  offset: 0, 0
+  index: -1
+effect/bit_04
+  rotate: true
+  xy: 2, 21
+  size: 438, 342
+  orig: 438, 342
+  offset: 0, 0
+  index: -1
+effect/bit_06
+  rotate: true
+  xy: 838, 159
+  size: 300, 184
+  orig: 300, 184
+  offset: 0, 0
+  index: -1
+effect/bit_07
+  rotate: true
+  xy: 346, 92
+  size: 371, 240
+  orig: 371, 240
+  offset: 0, 0
+  index: -1
+effect/bit_08
+  rotate: false
+  xy: 592, 825
+  size: 412, 197
+  orig: 412, 197
+  offset: 0, 0
+  index: -1
+effect/r_light
+  rotate: true
+  xy: 592, 461
+  size: 362, 404
+  orig: 362, 404
+  offset: 0, 0
+  index: -1
+effect/ring_06
+  rotate: true
+  xy: 54, 465
+  size: 318, 307
+  orig: 318, 307
+  offset: 0, 0
+  index: -1
+effect/smoke_01
+  rotate: true
+  xy: 588, 115
+  size: 344, 248
+  orig: 344, 248
+  offset: 0, 0
+  index: -1
+effect/text
+  rotate: true
+  xy: 363, 524
+  size: 259, 223
+  orig: 259, 223
+  offset: 0, 0
+  index: -1
+effect_core_A
+  rotate: false
+  xy: 998, 754
+  size: 23, 36
+  orig: 23, 36
+  offset: 0, 0
+  index: -1
+effect_core_B
+  rotate: false
+  xy: 479, 466
+  size: 45, 56
+  orig: 45, 56
+  offset: 0, 0
+  index: -1
+head copy
+  rotate: true
+  xy: 686, 5
+  size: 108, 128
+  orig: 108, 128
+  offset: 0, 0
+  index: -1
+head_grow
+  rotate: true
+  xy: 346, 4
+  size: 86, 89
+  orig: 86, 89
+  offset: 0, 0
+  index: -1
+head_grow copy
+  rotate: true
+  xy: 816, 5
+  size: 108, 128
+  orig: 108, 128
+  offset: 0, 0
+  index: -1
+r_arm_A_core
+  rotate: true
+  xy: 429, 465
+  size: 57, 48
+  orig: 57, 48
+  offset: 0, 0
+  index: -1
+r_arm_C_01
+  rotate: true
+  xy: 512, 6
+  size: 84, 73
+  orig: 84, 73
+  offset: 0, 0
+  index: -1
+ring_01
+  rotate: false
+  xy: 992, 60
+  size: 30, 46
+  orig: 30, 46
+  offset: 0, 0
+  index: -1
+ring_02
+  rotate: false
+  xy: 992, 20
+  size: 30, 38
+  orig: 30, 38
+  offset: 0, 0
+  index: -1
+ring_03
+  rotate: false
+  xy: 363, 465
+  size: 64, 57
+  orig: 64, 57
+  offset: 0, 0
+  index: -1
+
+shimma2.png
+size: 1024,1023
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm_A
+  rotate: false
+  xy: 2, 4
+  size: 130, 129
+  orig: 130, 129
+  offset: 0, 0
+  index: -1
+L_arm_B_03
+  rotate: true
+  xy: 982, 133
+  size: 65, 31
+  orig: 65, 31
+  offset: 0, 0
+  index: -1
+L_arm_C_02
+  rotate: true
+  xy: 866, 44
+  size: 48, 90
+  orig: 48, 90
+  offset: 0, 0
+  index: -1
+L_arm_C_03
+  rotate: false
+  xy: 982, 375
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: -1
+L_arm_C_05
+  rotate: false
+  xy: 982, 254
+  size: 33, 68
+  orig: 33, 68
+  offset: 0, 0
+  index: -1
+r_arm_C_05
+  rotate: false
+  xy: 982, 254
+  size: 33, 68
+  orig: 33, 68
+  offset: 0, 0
+  index: -1
+L_leg_core
+  rotate: true
+  xy: 991, 984
+  size: 37, 28
+  orig: 37, 28
+  offset: 0, 0
+  index: -1
+Layer 82
+  rotate: false
+  xy: 982, 200
+  size: 32, 52
+  orig: 32, 52
+  offset: 0, 0
+  index: -1
+R_leg_core
+  rotate: true
+  xy: 449, 94
+  size: 39, 27
+  orig: 39, 27
+  offset: 0, 0
+  index: -1
+body_01
+  rotate: true
+  xy: 903, 15
+  size: 27, 48
+  orig: 27, 48
+  offset: 0, 0
+  index: -1
+body_02
+  rotate: false
+  xy: 866, 12
+  size: 35, 30
+  orig: 35, 30
+  offset: 0, 0
+  index: -1
+body_07_d
+  rotate: true
+  xy: 982, 477
+  size: 49, 40
+  orig: 49, 40
+  offset: 0, 0
+  index: -1
+body_07_d_grow
+  rotate: true
+  xy: 982, 426
+  size: 49, 40
+  orig: 49, 40
+  offset: 0, 0
+  index: -1
+body_09
+  rotate: true
+  xy: 487, 536
+  size: 90, 68
+  orig: 90, 68
+  offset: 0, 0
+  index: -1
+body_11_grow
+  rotate: true
+  xy: 495, 10
+  size: 82, 97
+  orig: 82, 97
+  offset: 0, 0
+  index: -1
+body_core_01
+  rotate: true
+  xy: 594, 19
+  size: 73, 100
+  orig: 73, 100
+  offset: 0, 0
+  index: -1
+effect/2xring_big
+  rotate: false
+  xy: 958, 5
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+effect/bit_05
+  rotate: false
+  xy: 2, 628
+  size: 553, 393
+  orig: 553, 393
+  offset: 0, 0
+  index: -1
+effect/core light
+  rotate: false
+  xy: 557, 528
+  size: 432, 493
+  orig: 432, 493
+  offset: 0, 0
+  index: -1
+effect/core light2
+  rotate: true
+  xy: 487, 94
+  size: 432, 493
+  orig: 432, 493
+  offset: 0, 0
+  index: -1
+effect/light_001
+  rotate: true
+  xy: 2, 135
+  size: 491, 483
+  orig: 491, 483
+  offset: 0, 0
+  index: -1
+effect/ring_05
+  rotate: false
+  xy: 399, 2
+  size: 94, 90
+  orig: 94, 90
+  offset: 0, 0
+  index: -1
+effect/ringring
+  rotate: true
+  xy: 696, 22
+  size: 70, 168
+  orig: 70, 168
+  offset: 0, 0
+  index: -1
+effect_body light effect
+  rotate: true
+  xy: 134, 9
+  size: 124, 129
+  orig: 124, 129
+  offset: 0, 0
+  index: -1
+effect_core_C
+  rotate: true
+  xy: 399, 95
+  size: 38, 48
+  orig: 38, 48
+  offset: 0, 0
+  index: -1
+r_arm_A
+  rotate: true
+  xy: 265, 11
+  size: 122, 132
+  orig: 122, 132
+  offset: 0, 0
+  index: -1
+r_arm_B_03
+  rotate: true
+  xy: 982, 66
+  size: 65, 31
+  orig: 65, 31
+  offset: 0, 0
+  index: -1
+r_arm_C_03
+  rotate: false
+  xy: 982, 324
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: -1
+
+shimma3.png
+size: 994,624
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm_C_04
+  rotate: false
+  xy: 867, 163
+  size: 72, 59
+  orig: 72, 59
+  offset: 0, 0
+  index: -1
+L_arm_C__BACK
+  rotate: false
+  xy: 164, 12
+  size: 60, 44
+  orig: 60, 44
+  offset: 0, 0
+  index: -1
+r_arm_C_BACK
+  rotate: false
+  xy: 164, 12
+  size: 60, 44
+  orig: 60, 44
+  offset: 0, 0
+  index: -1
+R_leg
+  rotate: false
+  xy: 448, 34
+  size: 52, 46
+  orig: 52, 46
+  offset: 0, 0
+  index: -1
+R_leg_grow
+  rotate: false
+  xy: 502, 34
+  size: 52, 46
+  orig: 52, 46
+  offset: 0, 0
+  index: -1
+body_06
+  rotate: false
+  xy: 923, 371
+  size: 63, 68
+  orig: 63, 68
+  offset: 0, 0
+  index: -1
+body_06_grow
+  rotate: true
+  xy: 378, 17
+  size: 63, 68
+  orig: 63, 68
+  offset: 0, 0
+  index: -1
+body_08
+  rotate: false
+  xy: 867, 224
+  size: 101, 113
+  orig: 101, 113
+  offset: 0, 0
+  index: -1
+body_08_grow
+  rotate: false
+  xy: 884, 48
+  size: 101, 113
+  orig: 101, 113
+  offset: 0, 0
+  index: -1
+body_10
+  rotate: false
+  xy: 923, 441
+  size: 69, 43
+  orig: 69, 43
+  offset: 0, 0
+  index: -1
+body_BACK
+  rotate: false
+  xy: 770, 7
+  size: 112, 140
+  orig: 112, 140
+  offset: 0, 0
+  index: -1
+body_core_02
+  rotate: true
+  xy: 94, 6
+  size: 50, 68
+  orig: 50, 68
+  offset: 0, 0
+  index: -1
+effect/2xring
+  rotate: false
+  xy: 2, 58
+  size: 300, 298
+  orig: 300, 298
+  offset: 0, 0
+  index: -1
+effect/attack_after1
+  rotate: false
+  xy: 2, 358
+  size: 342, 264
+  orig: 342, 264
+  offset: 0, 0
+  index: -1
+effect/attack_light
+  rotate: false
+  xy: 638, 339
+  size: 283, 283
+  orig: 283, 283
+  offset: 0, 0
+  index: -1
+effect/bit_03
+  rotate: true
+  xy: 346, 339
+  size: 283, 290
+  orig: 283, 290
+  offset: 0, 0
+  index: -1
+effect/r_light2
+  rotate: true
+  xy: 304, 82
+  size: 255, 297
+  orig: 255, 297
+  offset: 0, 0
+  index: -1
+effect/smoke_02
+  rotate: false
+  xy: 603, 149
+  size: 262, 188
+  orig: 262, 188
+  offset: 0, 0
+  index: -1
+effect/summon_t
+  rotate: true
+  xy: 603, 10
+  size: 137, 165
+  orig: 137, 165
+  offset: 0, 0
+  index: -1
+effect_core_D
+  rotate: true
+  xy: 923, 486
+  size: 136, 68
+  orig: 136, 68
+  offset: 0, 0
+  index: -1
+r_arm_B_04
+  rotate: false
+  xy: 226, 12
+  size: 60, 44
+  orig: 60, 44
+  offset: 0, 0
+  index: -1
+r_arm_B_04_grow
+  rotate: false
+  xy: 884, 2
+  size: 60, 44
+  orig: 60, 44
+  offset: 0, 0
+  index: -1
+r_arm_C_02
+  rotate: true
+  xy: 2, 8
+  size: 48, 90
+  orig: 48, 90
+  offset: 0, 0
+  index: -1
+r_arm_C_04
+  rotate: false
+  xy: 304, 21
+  size: 72, 59
+  orig: 72, 59
+  offset: 0, 0
+  index: -1
+"/><sound name="8240147"/><canvas name="shimma.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="94bacd30207a9f29ed75d02d234f03357700fb0e5cba0160e5cf9f229a461294"/></canvas><canvas name="shimma2.png" width="1024" height="1023"><vector name="origin" x="512" y="511"/><int name="z" value="0"/><string name="_hash" value="e012b25297a8f6d3955557378d6370cf0664f9afc2c587547be9d0c466f884fd"/></canvas><canvas name="shimma3.png" width="994" height="624"><vector name="origin" x="687" y="125"/><int name="z" value="0"/><string name="_hash" value="2429594eb051f4242bdebae18280c168f93d795ef0d8c64db9ac5bca01b76208"/></canvas></imgdir>

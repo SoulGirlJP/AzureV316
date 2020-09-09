@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="8240167.img"><imgdir name="info"><int name="useReaction" value="1"/><int name="skeleton" value="1"/><int name="level" value="5"/><int name="maxHP" value="100"/><int name="acc" value="203"/><int name="eva" value="51"/><int name="pushed" value="900"/><float name="fs" value="10.0"/><int name="summonType" value="1"/><int name="category" value="8"/><string name="mobType" value="1N"/><int name="hideHP" value="1"/><int name="hideName" value="1"/><int name="noFlip" value="1"/><int name="boss" value="1"/><imgdir name="revive"><int name="0" value="8240170"/></imgdir><int name="hideUserDamage" value="1"/><int name="explosiveReward" value="1"/></imgdir><imgdir name="hit1"><string name="aniName" value="01"/></imgdir><imgdir name="die1"><string name="aniName" value="02"/></imgdir><imgdir name="stand"><string name="aniName" value="01"/></imgdir><string name="8240167.atlas" value="
+ceramics_A.png
+size: 405,524
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bit_A
+  rotate: false
+  xy: 340, 220
+  size: 49, 62
+  orig: 49, 62
+  offset: 0, 0
+  index: -1
+bit_B
+  rotate: true
+  xy: 182, 5
+  size: 32, 51
+  orig: 32, 51
+  offset: 0, 0
+  index: -1
+bit_C
+  rotate: true
+  xy: 272, 12
+  size: 25, 41
+  orig: 25, 41
+  offset: 0, 0
+  index: -1
+bit_D
+  rotate: true
+  xy: 235, 10
+  size: 27, 35
+  orig: 27, 35
+  offset: 0, 0
+  index: -1
+bit_E
+  rotate: true
+  xy: 330, 2
+  size: 20, 33
+  orig: 20, 33
+  offset: 0, 0
+  index: -1
+bit_F
+  rotate: true
+  xy: 340, 193
+  size: 25, 28
+  orig: 25, 28
+  offset: 0, 0
+  index: -1
+bit_G
+  rotate: false
+  xy: 315, 12
+  size: 13, 25
+  orig: 13, 25
+  offset: 0, 0
+  index: -1
+bits
+  rotate: false
+  xy: 182, 39
+  size: 146, 137
+  orig: 146, 137
+  offset: 0, 0
+  index: -1
+ceramics_all
+  rotate: false
+  xy: 330, 24
+  size: 73, 155
+  orig: 73, 155
+  offset: 0, 0
+  index: -1
+ceramics_down bit
+  rotate: false
+  xy: 340, 284
+  size: 56, 69
+  orig: 56, 69
+  offset: 0, 0
+  index: -1
+rin_A
+  rotate: false
+  xy: 276, 355
+  size: 126, 167
+  orig: 126, 167
+  offset: 0, 0
+  index: -1
+rin_B_
+  rotate: false
+  xy: 2, 5
+  size: 178, 171
+  orig: 178, 171
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: true
+  xy: 2, 178
+  size: 344, 272
+  orig: 344, 272
+  offset: 0, 0
+  index: -1
+smoke_B
+  rotate: false
+  xy: 276, 181
+  size: 62, 172
+  orig: 62, 172
+  offset: 0, 0
+  index: -1
+"/><sound name="8240167"/><canvas name="ceramics_A.png" width="405" height="524"><vector name="origin" x="202" y="262"/><int name="z" value="0"/><string name="_hash" value="8aa40117c711d4be7fa3d5442d789f6b7d59169a28a32b64a6b8e1867304deaa"/></canvas></imgdir>

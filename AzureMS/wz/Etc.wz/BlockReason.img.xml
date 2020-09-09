@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="BlockReason.img"><imgdir name="1"><string name="type" value="욕설"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 욕설, 비속어, 신체 비하, 음란 표현으로 상대방에게 불쾌감이나 모욕감을 주는 행위\r\n
+2. 욕설, 비속어, 신체 비하, 음란 표현이 포함된 형식의 이름 사용\r\n
+3. 이외에도 부적절하거나 비정상적인 표현, 이름 사용"/></imgdir><imgdir name="2"><string name="type" value="광고"/><string name="msg" value="넥슨 혹은 메이플스토리 측으로부터 공식적으로 허가받지 않은 광고활동으로 접속이 중지된 아이디입니다."/></imgdir><imgdir name="3"><string name="type" value="현금거래"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 게임 내의 재화, 넥슨ID 혹은 메이플ID를 현금 또는 그에 준하는 가치의 현물로 거래하거나,\r\n거래를 시도한 경우"/></imgdir><imgdir name="4"><string name="type" value="비정상 게임이용"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 회사가 제공 또는 승인하지 않은 프로그램 사용\r\n
+2. 게임 클라이언트 파일이나 데이터를 변조\r\n
+3. 거짓말탐지기에 반복해서 적발"/></imgdir><imgdir name="5"><string name="type" value="운영방해"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. GM이나 회사 관계자임을 사칭하여 고객의 정보나 아이템, 메소 등을 요구하는 경우\r\n
+2. GM이나 회사에 의해 공지되지 않은 허위 사실을 유포하는 경우\r\n
+3. GM이나 회사를 이유 없이 비방하거나 고의적으로 GM의 업무를 방해하는 경우\r\n
+4. 게임 이벤트나 콘텐츠 이용 등을 의도적으로 방해하는 경우\r\n
+5. 개인적인 이득을 목적으로 허위신고를 하는 경우 \r\n"/></imgdir><imgdir name="6"><string name="type" value="캐시부정결제"/><string name="msg" value="미성년자 결제, 아이디 도용 등의 비정상적인 방법으로 넥슨캐시가 결제된 기록이 있어서 접속이 중지된 아이디입니다. "/></imgdir><imgdir name="7"><string name="type" value="비정상 연루"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 운영정책을 위반한 캐릭터와 게임 내의 재화 혹은 아이템 등을 반복해서 거래\r\n
+2. 운영정책을 위반한 캐릭터와 파티/길드/친구 등의 관계를 맺거나 같은 장소에 머무르며 혜택을 얻음"/></imgdir><imgdir name="8"><string name="type" value="확성기"/><string name="msg" value="욕설, 신체 비하, 음란 표현과 같이 상대방에게 불쾌감이나 모욕감을 주는 행위가 확인되어 접속이 중지된 아이디입니다."/></imgdir><imgdir name="9"><string name="type" value="임시차단"/><string name="msg" value="아래의 내용 중 1가지를 처리하고 있어 게임을 이용할 수 없습니다.\r\n1. 1:1 문의하기로 요청한 내용 처리\r\n2. 게임에 발생한 문제 수정\r\n3. 비정상적인 게임기록 혹은 운영정책 위반 사항이 감지되어 조사\r\n\r\n만약 30분 이내로 차단 해제가 되지 않는다면, 홈페이지에서 1:1 문의하기를 이용해주세요."/></imgdir><imgdir name="10"><string name="type" value="캐시거래"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 게임 내의 재화나 아이템을 그에 준하는 가치의 현물로 교환하거나 교환을 시도\r\n
+2. ID 혹은 메이플ID 등의 계정을 거래하거나 거래를 시도\r\n
+3. 위를 목적으로 채팅 또는 기타 가능한 방법으로 홍보"/></imgdir><imgdir name="11"><string name="type" value="운영자사칭"/><string name="msg" value="운영자 사칭의 행위로 접속 중지 된 아이디 입니다."/></imgdir><imgdir name="12"><string name="type" value="불법프로그램"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 아이디입니다.\r\n
+1. 회사가 제공 또는 승인하지 않은 프로그램을 사용\r\n
+2. 회사가 제공 또는 승인하지 않은 프로그램을 유출, 판매하거나 이를 시도\r\n
+3. 게임 클라이언트 파일이나 데이터를 변조 \r\n
+4. 게임보안 시스템 회피"/></imgdir><imgdir name="13"><string name="type" value="해킹"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 다른 고객의 ID, 비밀번호, 결제정보 등을 획득하거나 획득하려고 시도\r\n
+2. 다른 고객의 ID, 비밀번호, 결제정보 등을 이용해 다른 고객의 재화를 탈취\r\n
+3. ID도용/결제정보도용 피해 고객 본인의 요청에 의한 임시차단"/></imgdir><imgdir name="14"><string name="type" value="탈퇴요청"/><string name="msg" value="접속하신 계정은 한국정보진흥원에서 넥슨에 대해 탈퇴 요청된 계정입니다. 자세한 내용 및 탈퇴 취소 요청은 홈페이지(고객센터)로 문의주세요."/></imgdir><imgdir name="15"><string name="type" value="개인정보유출"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 다른 고객의 정보(이름, 주소, 전화번호, 소속 등)를 불특정 다수에게 알리거나 알리려고 시도\r\n
+2. 다른 고객의 정보(이름, 주소, 전화번호, 소속 등)를 알고 있다는 사실을 당사자에게 직/간접적으로 알리며 심리적 불안을 유발"/></imgdir><imgdir name="16"><string name="type" value="사행성"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 아이디입니다.\r\n1. 게임 내에서 도박, 배팅 등의 사행성 행위를 진행, 유도, 홍보, 지원, 보조\r\n2. 게임 내에서 도박, 배팅 등의 사행성 행위에 참가\r\n3. 게임 내에서 진행되는 도박, 배팅 등의 사행성 행위를 방송"/></imgdir><imgdir name="17"><string name="type" value="사행성"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다..\r\n
+게임 내/외 시스템을 이용해\r\n
+1. 배팅, 배당 등의 행위에 직/간접적으로 참여하는 경우\r\n
+2. 위 행위를 지원, 보조하는 경우"/></imgdir><imgdir name="18"><string name="type" value="버그사용"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 시스템 오류 혹은 버그를 사용한 경우\r\n
+2. 시스템 오류 또는 버그를 악용할 수 있는 방법을 유포하거나 유포를 시도한 경우"/></imgdir><imgdir name="19"><string name="type" value="버그악용"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 시스템 오류 또는 버그를 사용하거나 악용\r\n
+2. 시스템 오류 또는 버그를 사용 또는 악용 방법을 유포하거나 유포 시도\r\n
+3. 시스템 오류 또는 버그를 사용 또는 악용 방법을 알아내기 위해 시도"/></imgdir><imgdir name="20"><string name="type" value="버그악용"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 시스템 오류 또는 버그를 사용하거나 악용\r\n
+2. 시스템 오류 또는 버그를 사용 또는 악용 방법을 유포하거나 유포 시도\r\n
+3. 시스템 오류 또는 버그를 사용 또는 악용 방법을 알아내기 위해 시도"/></imgdir><imgdir name="21"><string name="type" value="버그악용"/><string name="msg" value="시스템 오류 악용/버그 악용 항목으로 접속이 중지된 ID입니다.\r\n\r\n시스템 오류 악용/버그 악용 예시는 홈페이지 하단 링크에서 확인할 수 있는 운영정책을 참고해주세요."/></imgdir><imgdir name="22"><string name="type" value="수동 임시차단"/><string name="msg" value="아래의 내용 중 1가지를 처리하고 있어 게임을 이용할 수 없습니다.\r\n
+1. 1:1 문의로 요청한 내용 처리\r\n
+2. 게임에 발생한 문제 수정\r\n
+3. 비정상적인 게임기록 혹은 운영정책 위반 사항이 감지되어 조사\r\n\r\n
+
+만약 계속해서 접속할 수 없다면, 홈페이지의 1:1 문의를 이용해주세요."/></imgdir><imgdir name="23"><string name="type" value="비정상기록탐지"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 회사에서 제공하는 게임보안시스템에 반복해서 적발되는 경우\r\n
+2. 내부 비정상 감지 시스템에 반복해서 적발되는 경우\r\n
+3. 사업자가 아닌 개인이\r\nPC방 프리미엄을 반복적으로 구입하여 사용하는 경우\r\n
+4. 비정상 기록 탐지로 적발된 대상과 재화를 직/간적접으로 거래한 경우"/></imgdir><imgdir name="24"><string name="type" value="홈페이지"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 각 게시판의 용도와 무관한 게시물 또는 댓글을 반복하여 등록\r\n
+2. 도배, 욕설, 비방성 분쟁 유발 게시물 또는 댓글을 등록하여 다른 고객의 게임 이용 및 게임 운영을 방해\r\n
+3. 사칭, 불법프로그램, 버그 사용, 해킹, 개인정보 유출 등의 악성 정보를 홈페이지 게시물 또는 댓글로 유포"/></imgdir><imgdir name="25"><string name="type" value="허위신고"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 재화획득 또는 특정인 처벌을 목적으로 정보도용/유출 사건 등을 꾸며내 신고\r\n
+2. 정보도용/유출 사건 등을 입증할만한 근거가 없는 상황을 반복적으로 신고"/></imgdir><imgdir name="26"><string name="type" value="사기"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 메이플 옥션, 1:1거래, 택배 등 게임시스템을 악용하여 비정상적인 가격으로 다른 고객의 메소나 아이템을 획득한 경우\r\n
+2. 메이플 옥션, 1:1거래, 택배 등 게임시스템을 악용하여 비정상적인 가격으로 다른 고객의 메소나 아이템 획득을 시도한 경우"/></imgdir><imgdir name="27"><string name="type" value="홍보/광고"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 성인, 유해, 사기, 반사회적 이슈, 현금거래, 도박 등 운영정책 위반을 조장하는 홍보 및 광고 행위\r\n(SNS, 인터넷 방송, 외부 커뮤니티 등 게임 외 채널 포함)\r\n
+2. 게임과 무관한 홍보, 광고 행위"/></imgdir><imgdir name="28"><string name="type" value="게임방해"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 지속적으로 다른 고객을 스토킹하며, 원활한 게임 이용을 방해하는 경우\r\n
+2. 게임 내 정상적인 시스템을 이용하여, 다른 고객의 원활한 게임 이용을 방해하는 경우\r\n
+3. 게임 내 정상적인 시스템을 이용하여, 사회문화적 정서에 반하는 게임 이용을 하는 경우 "/></imgdir><imgdir name="29"><string name="type" value="불법프로그램 제작/유포"/><string name="msg" value="불법프로그램을 제작, 유출 , 판매하거나 이를 시도한 것이 확인되어 접속이 중지된 ID입니다."/></imgdir><imgdir name="30"><string name="type" value="집단적 불법프로그램 사용"/><string name="msg" value="불법프로그램을 조직적,  집단적으로 사용하거나 사용하려고 시도한 것이 확인되어 접속이 중지된 ID입니다."/></imgdir><imgdir name="31"><string name="type" value="불법프로그램 사용"/><string name="msg" value="게임의 정상적인 운영을 방해할 목적으로 제작된 것으로 회사가 제공 또는 승인하지 않은 컴퓨터 프로그램, 기기 또는 장치를 사용하거나 사용하려고 시도한 것이 확인되어 접속이 중지된 ID입니다."/></imgdir><imgdir name="32"><string name="type" value="클라이언트 변조/서버 해킹"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 다른 고객의 컴퓨터 시스템 혹은 서버에 불법으로 접근하는 경우\r\n 
+2. 게임 클라이언트나 리소스를 열어 이를 열람하거나 변경, 수정하는 경우\r\n 
+3. 게임 클라이언트와 서버 간의 정보를 탈취하거나 이를 수정하는 경우\r\n 
+4. 기타 회사에서 기본 제공하지 않는 형태로 게임 클라이언트 혹은 서버를 이용하는 경우\r\n
+5. 클라이언트 변조/서버 해킹 방법을 유포하거나 유포를 시도한 경우"/></imgdir><imgdir name="33"><string name="type" value="거짓말탐지기 적발"/><string name="msg" value="아래 내용으로 운영정책을 위반하는 행위가 확인되어 접속이 중지된 ID입니다.\r\n
+1. 거짓말탐지기에 반복해서 적발되는 경우\r\n
+2. 거짓말탐지기에 반복해서 적발된 대상과 재화를 직/간접적으로 거래한 경우 "/></imgdir><imgdir name="90"><string name="type" value="NGS-비정상기록탐지(자동)"/><int name="linkReason" value="23"/></imgdir><imgdir name="91"><string name="type" value="NGS-불법프로그램(자동)"/><int name="linkReason" value="31"/></imgdir><imgdir name="92"><string name="type" value="거탐 블록(자동)"/><int name="linkReason" value="33"/></imgdir><imgdir name="93"><string name="type" value="실시간 매크로(자동)"/><int name="linkReason" value="23"/></imgdir><imgdir name="94"><string name="type" value="로그블록(자동)"/><int name="linkReason" value="32"/></imgdir><imgdir name="95"><string name="type" value="NGSHash(자동)"/><int name="linkReason" value="30"/></imgdir><imgdir name="96"><string name="type" value="보스클리어(자동)"/><int name="linkReason" value="23"/></imgdir><imgdir name="97"><string name="type" value="욕설 신고처리하기(자동)"/><int name="linkReason" value="1"/></imgdir></imgdir>

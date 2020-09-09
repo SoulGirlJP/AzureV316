@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="8240166.img"><imgdir name="info"><int name="skeleton" value="1"/><int name="level" value="5"/><int name="maxHP" value="5000000"/><int name="acc" value="203"/><int name="eva" value="51"/><float name="fs" value="10.0"/><int name="summonType" value="1"/><int name="category" value="8"/><string name="mobType" value="1N"/><int name="blockUserMove" value="1"/><int name="bodyAttack" value="1"/><int name="skelAniMixRate" value="0"/><int name="nonLevelCheckEVA" value="1"/><int name="nonLevelCheckACC" value="1"/><int name="noFlip" value="1"/><imgdir name="speak"><int name="chatBalloon" value="0"/><imgdir name="0"><int name="hp" value="4000000"/><string name="0" value="...!"/></imgdir><imgdir name="1"><int name="hp" value="3000000"/><string name="0" value="나를 통과할 순 없다."/></imgdir><imgdir name="2"><int name="hp" value="2000000"/><string name="0" value="...!!"/></imgdir><imgdir name="3"><int name="hp" value="1000000"/><string name="0" value="...!!!"/><string name="1" value="나를 통과할 순 없다."/><string name="2" value="카푸스...!"/></imgdir></imgdir><imgdir name="damagedBySelectedSkill"><int name="0" value="80001910"/><int name="1" value="80001911"/><int name="2" value="80001912"/><int name="3" value="80001913"/><int name="4" value="80001914"/><int name="5" value="80001915"/><int name="6" value="80001916"/></imgdir></imgdir><imgdir name="regen"><string name="aniName" value="00_summon"/></imgdir><imgdir name="die1"><string name="aniName" value="02_die"/></imgdir><imgdir name="stand"><string name="aniName" value="01_stand"/></imgdir><string name="8240166.atlas" value="
+summon_mon.png
+size: 836,330
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+after
+  rotate: true
+  xy: 287, 49
+  size: 139, 201
+  orig: 139, 201
+  offset: 0, 0
+  index: -1
+attack_light
+  rotate: false
+  xy: 2, 45
+  size: 283, 283
+  orig: 283, 283
+  offset: 0, 0
+  index: -1
+bit_01
+  rotate: false
+  xy: 381, 19
+  size: 36, 28
+  orig: 36, 28
+  offset: 0, 0
+  index: -1
+bit_02
+  rotate: true
+  xy: 669, 5
+  size: 31, 47
+  orig: 31, 47
+  offset: 0, 0
+  index: -1
+stone_08
+  rotate: true
+  xy: 669, 5
+  size: 31, 47
+  orig: 31, 47
+  offset: 0, 0
+  index: -1
+bit_03
+  rotate: false
+  xy: 769, 58
+  size: 44, 48
+  orig: 44, 48
+  offset: 0, 0
+  index: -1
+stone_09
+  rotate: false
+  xy: 769, 58
+  size: 44, 48
+  orig: 44, 48
+  offset: 0, 0
+  index: -1
+bit_04
+  rotate: false
+  xy: 2, 18
+  size: 99, 25
+  orig: 99, 25
+  offset: 0, 0
+  index: -1
+bit_05
+  rotate: false
+  xy: 634, 108
+  size: 94, 53
+  orig: 94, 53
+  offset: 0, 0
+  index: -1
+bit_06
+  rotate: false
+  xy: 734, 38
+  size: 33, 68
+  orig: 33, 68
+  offset: 0, 0
+  index: -1
+bit_07
+  rotate: false
+  xy: 669, 38
+  size: 63, 68
+  orig: 63, 68
+  offset: 0, 0
+  index: -1
+bit_08_core
+  rotate: false
+  xy: 769, 16
+  size: 51, 40
+  orig: 51, 40
+  offset: 0, 0
+  index: -1
+eye effect
+  rotate: true
+  xy: 490, 2
+  size: 84, 60
+  orig: 84, 60
+  offset: 0, 0
+  index: -1
+eye effect2
+  rotate: false
+  xy: 2, 5
+  size: 39, 11
+  orig: 39, 11
+  offset: 0, 0
+  index: -1
+eye_A
+  rotate: false
+  xy: 337, 14
+  size: 42, 33
+  orig: 42, 33
+  offset: 0, 0
+  index: -1
+eye_B copy
+  rotate: true
+  xy: 457, 8
+  size: 39, 20
+  orig: 39, 20
+  offset: 0, 0
+  index: -1
+main_stobe
+  rotate: false
+  xy: 490, 88
+  size: 142, 81
+  orig: 142, 81
+  offset: 0, 0
+  index: -1
+ring
+  rotate: false
+  xy: 496, 171
+  size: 179, 157
+  orig: 179, 157
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 287, 190
+  size: 207, 138
+  orig: 207, 138
+  offset: 0, 0
+  index: -1
+stone_01
+  rotate: false
+  xy: 419, 19
+  size: 36, 28
+  orig: 36, 28
+  offset: 0, 0
+  index: -1
+stone_02
+  rotate: true
+  xy: 718, 5
+  size: 31, 47
+  orig: 31, 47
+  offset: 0, 0
+  index: -1
+stone_03
+  rotate: true
+  xy: 287, 3
+  size: 44, 48
+  orig: 44, 48
+  offset: 0, 0
+  index: -1
+stone_04
+  rotate: false
+  xy: 103, 18
+  size: 99, 25
+  orig: 99, 25
+  offset: 0, 0
+  index: -1
+stone_05
+  rotate: false
+  xy: 204, 20
+  size: 75, 23
+  orig: 75, 23
+  offset: 0, 0
+  index: -1
+stone_06
+  rotate: false
+  xy: 730, 108
+  size: 94, 53
+  orig: 94, 53
+  offset: 0, 0
+  index: -1
+stone_07
+  rotate: false
+  xy: 815, 60
+  size: 19, 46
+  orig: 19, 46
+  offset: 0, 0
+  index: -1
+stone_back
+  rotate: true
+  xy: 552, 16
+  size: 70, 115
+  orig: 70, 115
+  offset: 0, 0
+  index: -1
+summon_t
+  rotate: false
+  xy: 677, 163
+  size: 137, 165
+  orig: 137, 165
+  offset: 0, 0
+  index: -1
+"/><sound name="8240166"/><canvas name="summon_mon.png" width="836" height="330"><vector name="origin" x="698" y="246"/><int name="z" value="0"/><string name="_hash" value="dc364b310795e1680069110af1820b76f3fb1eb12d99a91e68a71a622e899f46"/></canvas></imgdir>

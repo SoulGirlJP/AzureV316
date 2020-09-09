@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="8240145.img"><imgdir name="info"><int name="useReaction" value="1"/><int name="skeleton" value="1"/><int name="level" value="5"/><int name="maxHP" value="100"/><int name="acc" value="203"/><int name="eva" value="51"/><int name="pushed" value="900"/><float name="fs" value="10.0"/><int name="summonType" value="1"/><int name="category" value="8"/><string name="mobType" value="1N"/><int name="hideHP" value="1"/><int name="hideName" value="1"/><int name="noFlip" value="1"/><int name="boss" value="1"/><imgdir name="revive"><int name="0" value="8240146"/></imgdir><int name="underObject" value="1"/><int name="blockUserMove" value="1"/><int name="bodyAttack" value="1"/><int name="hideUserDamage" value="1"/></imgdir><imgdir name="hit1"><string name="aniName" value="01"/></imgdir><imgdir name="die1"><string name="aniName" value="02"/></imgdir><imgdir name="stand"><string name="aniName" value="01"/></imgdir><canvas name="03_iceeffect_C3.png" width="1" height="1"><vector name="origin" x="785" y="349"/><int name="z" value="0"/><string name="_hash" value="c69236b4ec22ba1110e3c2b1b194d46cf0a6478c2f87e7fb024708823a6232f6"/><string name="_outlink" value="Mob/8240143.img/03_iceeffect_C1.png"/></canvas><string name="8240145.atlas" value="
+03_iceeffect_C3.png
+size: 900,470
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bit down_A
+  rotate: false
+  xy: 858, 415
+  size: 40, 53
+  orig: 40, 53
+  offset: 0, 0
+  index: -1
+bit down_B
+  rotate: true
+  xy: 760, 390
+  size: 78, 96
+  orig: 78, 96
+  offset: 0, 0
+  index: -1
+bit down_c
+  rotate: true
+  xy: 847, 185
+  size: 54, 51
+  orig: 54, 51
+  offset: 0, 0
+  index: -1
+bit_01
+  rotate: false
+  xy: 858, 360
+  size: 40, 53
+  orig: 40, 53
+  offset: 0, 0
+  index: -1
+bit_02
+  rotate: true
+  xy: 698, 3
+  size: 34, 61
+  orig: 34, 61
+  offset: 0, 0
+  index: -1
+bit_03
+  rotate: true
+  xy: 748, 184
+  size: 55, 97
+  orig: 55, 97
+  offset: 0, 0
+  index: -1
+bit_04
+  rotate: true
+  xy: 745, 241
+  size: 63, 123
+  orig: 63, 123
+  offset: 0, 0
+  index: -1
+bit_05
+  rotate: true
+  xy: 429, 212
+  size: 73, 165
+  orig: 73, 165
+  offset: 0, 0
+  index: -1
+bit_06
+  rotate: true
+  xy: 760, 310
+  size: 78, 96
+  orig: 78, 96
+  offset: 0, 0
+  index: -1
+bit_07
+  rotate: true
+  xy: 761, 3
+  size: 34, 40
+  orig: 34, 40
+  offset: 0, 0
+  index: -1
+bit_08
+  rotate: true
+  xy: 596, 185
+  size: 44, 95
+  orig: 44, 95
+  offset: 0, 0
+  index: -1
+bit_09
+  rotate: false
+  xy: 693, 181
+  size: 53, 48
+  orig: 53, 48
+  offset: 0, 0
+  index: -1
+body2_01
+  rotate: true
+  xy: 602, 306
+  size: 162, 156
+  orig: 162, 156
+  offset: 0, 0
+  index: -1
+body2_02
+  rotate: false
+  xy: 596, 231
+  size: 147, 54
+  orig: 147, 54
+  offset: 0, 0
+  index: -1
+dust_A
+  rotate: true
+  xy: 429, 287
+  size: 181, 171
+  orig: 181, 171
+  offset: 0, 0
+  index: -1
+dust_B
+  rotate: false
+  xy: 515, 6
+  size: 181, 171
+  orig: 181, 171
+  offset: 0, 0
+  index: -1
+dust_C
+  rotate: true
+  xy: 429, 179
+  size: 31, 117
+  orig: 31, 117
+  offset: 0, 0
+  index: -1
+dust_D
+  rotate: false
+  xy: 2, 8
+  size: 232, 136
+  orig: 232, 136
+  offset: 0, 0
+  index: -1
+dust_D_01
+  rotate: true
+  xy: 2, 146
+  size: 322, 206
+  orig: 322, 206
+  offset: 0, 0
+  index: -1
+dust_E_01
+  rotate: false
+  xy: 698, 39
+  size: 190, 140
+  orig: 190, 140
+  offset: 0, 0
+  index: -1
+s_smoke
+  rotate: false
+  xy: 236, 2
+  size: 277, 172
+  orig: 277, 172
+  offset: 0, 0
+  index: -1
+smoke2
+  rotate: true
+  xy: 210, 176
+  size: 292, 217
+  orig: 292, 217
+  offset: 0, 0
+  index: -1
+"/><sound name="8240145"/></imgdir>

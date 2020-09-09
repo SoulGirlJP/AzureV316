@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="1540818.img"><imgdir name="info"><int name="hideName" value="1"/><int name="forceMove" value="1"/><int name="skeleton" value="1"/><imgdir name="spine"><string name="1540818.atlas" value="
+spider.png
+size: 1024,1023
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body line
+  rotate: true
+  xy: 905, 357
+  size: 276, 113
+  orig: 276, 113
+  offset: 0, 0
+  index: -1
+body rotate_02
+  rotate: true
+  xy: 274, 3
+  size: 254, 200
+  orig: 254, 200
+  offset: 0, 0
+  index: -1
+body rotate_03
+  rotate: true
+  xy: 2, 3
+  size: 254, 270
+  orig: 254, 270
+  offset: 0, 0
+  index: -1
+effect/attack after_01
+  rotate: false
+  xy: 564, 335
+  size: 248, 298
+  orig: 248, 298
+  offset: 0, 0
+  index: -1
+effect/bb_ring
+  rotate: true
+  xy: 521, 198
+  size: 435, 41
+  orig: 435, 41
+  offset: 0, 0
+  index: -1
+effect/big_light_01
+  rotate: false
+  xy: 2, 509
+  size: 517, 512
+  orig: 517, 512
+  offset: 0, 0
+  index: -1
+effect/big_light_03
+  rotate: true
+  xy: 521, 635
+  size: 386, 385
+  orig: 386, 385
+  offset: 0, 0
+  index: -1
+effect/body after_01
+  rotate: false
+  xy: 348, 260
+  size: 138, 247
+  orig: 138, 247
+  offset: 0, 0
+  index: -1
+effect/earth_smoke_01
+  rotate: false
+  xy: 520, 13
+  size: 292, 183
+  orig: 292, 183
+  offset: 0, 0
+  index: -1
+effect/eye smaoke_02
+  rotate: false
+  xy: 814, 2
+  size: 207, 126
+  orig: 207, 126
+  offset: 0, 0
+  index: -1
+effect/light_after
+  rotate: false
+  xy: 814, 341
+  size: 89, 292
+  orig: 89, 292
+  offset: 0, 0
+  index: -1
+effect/s_ring
+  rotate: false
+  xy: 814, 130
+  size: 208, 209
+  orig: 208, 209
+  offset: 0, 0
+  index: -1
+effect/smoke_01
+  rotate: false
+  xy: 2, 259
+  size: 344, 248
+  orig: 344, 248
+  offset: 0, 0
+  index: -1
+effect/spider web_02
+  rotate: true
+  xy: 564, 204
+  size: 129, 193
+  orig: 129, 193
+  offset: 0, 0
+  index: -1
+effect/star
+  rotate: true
+  xy: 476, 214
+  size: 44, 42
+  orig: 44, 42
+  offset: 0, 0
+  index: -1
+effect/stones_03
+  rotate: false
+  xy: 476, 169
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+eye light
+  rotate: false
+  xy: 476, 45
+  size: 41, 55
+  orig: 41, 55
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 908, 908
+  size: 104, 113
+  orig: 104, 113
+  offset: 0, 0
+  index: -1
+head_eye
+  rotate: true
+  xy: 488, 395
+  size: 55, 22
+  orig: 55, 22
+  offset: 0, 0
+  index: -1
+head_eye grow
+  rotate: false
+  xy: 974, 686
+  size: 47, 22
+  orig: 47, 22
+  offset: 0, 0
+  index: -1
+head_eye grow2
+  rotate: true
+  xy: 476, 102
+  size: 65, 41
+  orig: 65, 41
+  offset: 0, 0
+  index: -1
+head_eye2
+  rotate: true
+  xy: 488, 452
+  size: 55, 23
+  orig: 55, 23
+  offset: 0, 0
+  index: -1
+head_eye3
+  rotate: true
+  xy: 488, 338
+  size: 55, 22
+  orig: 55, 22
+  offset: 0, 0
+  index: -1
+head_eye4
+  rotate: true
+  xy: 488, 281
+  size: 55, 22
+  orig: 55, 22
+  offset: 0, 0
+  index: -1
+head_eye5
+  rotate: false
+  xy: 908, 636
+  size: 55, 22
+  orig: 55, 22
+  offset: 0, 0
+  index: -1
+head_eye6
+  rotate: false
+  xy: 965, 636
+  size: 55, 22
+  orig: 55, 22
+  offset: 0, 0
+  index: -1
+head_eye7
+  rotate: true
+  xy: 986, 854
+  size: 52, 35
+  orig: 52, 35
+  offset: 0, 0
+  index: -1
+head_hair
+  rotate: true
+  xy: 974, 710
+  size: 72, 47
+  orig: 72, 47
+  offset: 0, 0
+  index: -1
+l_leg_01
+  rotate: false
+  xy: 908, 784
+  size: 76, 122
+  orig: 76, 122
+  offset: 0, 0
+  index: -1
+l_leg_02
+  rotate: false
+  xy: 908, 660
+  size: 64, 122
+  orig: 64, 122
+  offset: 0, 0
+  index: -1
+top ring_03
+  rotate: true
+  xy: 759, 210
+  size: 123, 51
+  orig: 123, 51
+  offset: 0, 0
+  index: -1
+
+spider2.png
+size: 993,453
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 733, 52
+  size: 199, 141
+  orig: 199, 141
+  offset: 0, 0
+  index: -1
+body rotate
+  rotate: false
+  xy: 737, 197
+  size: 254, 254
+  orig: 254, 254
+  offset: 0, 0
+  index: -1
+die
+  rotate: true
+  xy: 2, 125
+  size: 326, 214
+  orig: 326, 214
+  offset: 0, 0
+  index: -1
+effect/light_01
+  rotate: false
+  xy: 218, 168
+  size: 265, 283
+  orig: 265, 283
+  offset: 0, 0
+  index: -1
+effect/smoke_02
+  rotate: false
+  xy: 485, 195
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+effect/stones_01
+  rotate: false
+  xy: 2, 2
+  size: 183, 121
+  orig: 183, 121
+  offset: 0, 0
+  index: -1
+effect/stones_02
+  rotate: false
+  xy: 187, 2
+  size: 183, 121
+  orig: 183, 121
+  offset: 0, 0
+  index: -1
+head_jaw
+  rotate: true
+  xy: 563, 25
+  size: 103, 57
+  orig: 103, 57
+  offset: 0, 0
+  index: -1
+l_leg2_01
+  rotate: true
+  xy: 398, 128
+  size: 38, 59
+  orig: 38, 59
+  offset: 0, 0
+  index: -1
+l_leg2_02
+  rotate: true
+  xy: 459, 128
+  size: 38, 59
+  orig: 38, 59
+  offset: 0, 0
+  index: -1
+l_leg2_03
+  rotate: true
+  xy: 681, 3
+  size: 38, 54
+  orig: 38, 54
+  offset: 0, 0
+  index: -1
+l_leg_03
+  rotate: false
+  xy: 498, 22
+  size: 63, 104
+  orig: 63, 104
+  offset: 0, 0
+  index: -1
+r_leg2_01
+  rotate: true
+  xy: 218, 126
+  size: 40, 61
+  orig: 40, 61
+  offset: 0, 0
+  index: -1
+r_leg2_02
+  rotate: true
+  xy: 281, 126
+  size: 40, 59
+  orig: 40, 59
+  offset: 0, 0
+  index: -1
+r_leg2_03
+  rotate: true
+  xy: 342, 126
+  size: 40, 54
+  orig: 40, 54
+  offset: 0, 0
+  index: -1
+r_leg_01
+  rotate: false
+  xy: 438, 4
+  size: 58, 122
+  orig: 58, 122
+  offset: 0, 0
+  index: -1
+r_leg_02
+  rotate: false
+  xy: 372, 2
+  size: 64, 122
+  orig: 64, 122
+  offset: 0, 0
+  index: -1
+r_leg_03
+  rotate: true
+  xy: 520, 130
+  size: 63, 104
+  orig: 63, 104
+  offset: 0, 0
+  index: -1
+top ring_01
+  rotate: true
+  xy: 694, 43
+  size: 150, 37
+  orig: 150, 37
+  offset: 0, 0
+  index: -1
+top ring_02
+  rotate: true
+  xy: 622, 25
+  size: 103, 57
+  orig: 103, 57
+  offset: 0, 0
+  index: -1
+top ring_05
+  rotate: false
+  xy: 626, 131
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+"/><sound name="1540818"/><canvas name="spider.png" width="1024" height="1023"><vector name="origin" x="512" y="511"/><int name="z" value="0"/><string name="_hash" value="383c9c3970656513be090c40147276ce5fd9f857153676420179f9b2a1f60d21"/></canvas><canvas name="spider2.png" width="1" height="1"><vector name="origin" x="496" y="226"/><int name="z" value="0"/><string name="_hash" value="e42c84d7474de85a994e33d6151ba88ba3ed5bfc330fc681997ad02a50903b40"/><string name="_outlink" value="Npc/1540812.img/info/spine/spider2.png"/></canvas></imgdir></imgdir><imgdir name="stand"><string name="aniName" value="03_cave over_01_die stand"/></imgdir><imgdir name="move"><string name="aniName" value="02_move2_1"/></imgdir><imgdir name="stand2"><string name="aniName" value="01_stand_2"/><int name="special" value="1"/></imgdir><imgdir name="move2"><string name="aniName" value="02_move2_1"/><int name="special" value="1"/></imgdir><imgdir name="appear_top"><string name="aniName" value="01_summon_1"/><int name="special" value="1"/></imgdir><imgdir name="notdie"><string name="aniName" value="03_cave over_01_stand up"/><int name="special" value="1"/></imgdir><imgdir name="pre_attack"><string name="aniName" value="04_attack_03"/><int name="special" value="1"/></imgdir><imgdir name="attack"><string name="aniName" value="04_attack_03_1"/><int name="special" value="1"/></imgdir><imgdir name="die"><string name="aniName" value="03_cave over_01_die2"/><int name="special" value="1"/></imgdir><imgdir name="fall"><string name="aniName" value="03_cave over_00_fall"/><int name="special" value="1"/></imgdir><imgdir name="groggy"><string name="aniName" value="03_cave over_01_stand"/><int name="special" value="1"/></imgdir><imgdir name="groggy_attack"><string name="aniName" value="03_cave over_04_attack"/><int name="special" value="1"/></imgdir><imgdir name="jump"><string name="aniName" value="05_jump_1"/><int name="special" value="1"/></imgdir></imgdir>

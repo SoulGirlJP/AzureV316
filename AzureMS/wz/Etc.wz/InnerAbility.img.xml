@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="InnerAbility.img"><imgdir name="OptionRequirePoint"><imgdir name="Rate"><int name="0" value="100"/><int name="1" value="400"/><int name="2" value="5000"/><int name="3" value="10000"/></imgdir><imgdir name="Ability"><int name="0" value="3000"/><int name="1" value="8000"/></imgdir></imgdir></imgdir>

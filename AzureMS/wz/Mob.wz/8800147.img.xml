@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="8800147.img"><imgdir name="info"><int name="hpRecovery" value="20000"/><int name="mpRecovery" value="1000"/><int name="noFlip" value="1"/><int name="firstAttack" value="1"/><int name="mbookID" value="8800002"/><int name="level" value="180"/><int name="bodyAttack" value="1"/><int name="maxHP" value="2100000000"/><int name="maxMP" value="27000"/><int name="PADamage" value="2900"/><int name="PDDamage" value="800"/><int name="PDRate" value="50"/><int name="MADamage" value="2400"/><int name="MDDamage" value="800"/><int name="MDRate" value="50"/><int name="acc" value="550"/><int name="eva" value="200"/><int name="pushed" value="50000"/><float name="fs" value="10.0"/><int name="boss" value="1"/><int name="exp" value="1"/><int name="summonType" value="1"/><int name="category" value="6"/><string name="mobType" value="7N"/><imgdir name="skill"><imgdir name="0"><int name="skill" value="176"/><int name="action" value="1"/><int name="level" value="25"/><int name="skillAfter" value="1420"/></imgdir><imgdir name="1"><int name="skill" value="176"/><int name="action" value="2"/><int name="level" value="26"/><int name="skillAfter" value="2430"/></imgdir></imgdir><int name="charismaEXP" value="15"/><int name="skeleton" value="1"/><int name="ignoreMoveImpact" value="1"/></imgdir><string name="8800147.atlas" value="
+8800147.png
+size: 963,900
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm_A_blur
+  rotate: true
+  xy: 855, 780
+  size: 118, 104
+  orig: 118, 104
+  offset: 0, 0
+  index: -1
+Arm_B_003
+  rotate: true
+  xy: 408, 77
+  size: 151, 64
+  orig: 151, 64
+  offset: 0, 0
+  index: -1
+Arm_B_004
+  rotate: false
+  xy: 474, 97
+  size: 151, 64
+  orig: 151, 64
+  offset: 0, 0
+  index: -1
+Arm_B_blur
+  rotate: false
+  xy: 474, 163
+  size: 166, 79
+  orig: 166, 79
+  offset: 0, 0
+  index: -1
+Arm_a_003
+  rotate: false
+  xy: 272, 8
+  size: 104, 93
+  orig: 104, 93
+  offset: 0, 0
+  index: -1
+Arm_a_004
+  rotate: false
+  xy: 474, 2
+  size: 104, 93
+  orig: 104, 93
+  offset: 0, 0
+  index: -1
+Arm_a_005
+  rotate: false
+  xy: 580, 2
+  size: 104, 93
+  orig: 104, 93
+  offset: 0, 0
+  index: -1
+Arm_a_006
+  rotate: true
+  xy: 686, 2
+  size: 104, 93
+  orig: 104, 93
+  offset: 0, 0
+  index: -1
+BA_03_001
+  rotate: false
+  xy: 254, 230
+  size: 217, 278
+  orig: 217, 278
+  offset: 0, 0
+  index: -1
+BA_03_002
+  rotate: false
+  xy: 736, 464
+  size: 217, 278
+  orig: 217, 278
+  offset: 0, 0
+  index: -1
+BA_03_003
+  rotate: true
+  xy: 456, 524
+  size: 218, 278
+  orig: 218, 278
+  offset: 0, 0
+  index: -1
+BA_03_004
+  rotate: false
+  xy: 473, 244
+  size: 218, 278
+  orig: 218, 278
+  offset: 0, 0
+  index: -1
+Elbow_001
+  rotate: false
+  xy: 693, 489
+  size: 35, 33
+  orig: 35, 33
+  offset: 0, 0
+  index: -1
+Elbow_001_blur
+  rotate: false
+  xy: 2, 13
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+Hand_001
+  rotate: true
+  xy: 781, 22
+  size: 91, 89
+  orig: 91, 89
+  offset: 0, 0
+  index: -1
+Hand_001_blur
+  rotate: false
+  xy: 642, 108
+  size: 110, 107
+  orig: 110, 107
+  offset: 0, 0
+  index: -1
+Hand_002
+  rotate: false
+  xy: 754, 115
+  size: 98, 96
+  orig: 98, 96
+  offset: 0, 0
+  index: -1
+Hand_002_blur
+  rotate: false
+  xy: 816, 213
+  size: 113, 112
+  orig: 113, 112
+  offset: 0, 0
+  index: -1
+Hand_003
+  rotate: false
+  xy: 693, 217
+  size: 121, 111
+  orig: 121, 111
+  offset: 0, 0
+  index: -1
+Hand_003_blur
+  rotate: false
+  xy: 272, 103
+  size: 134, 125
+  orig: 134, 125
+  offset: 0, 0
+  index: -1
+Hand_004
+  rotate: true
+  xy: 152, 63
+  size: 133, 118
+  orig: 133, 118
+  offset: 0, 0
+  index: -1
+Hand_004_blur
+  rotate: false
+  xy: 693, 330
+  size: 147, 132
+  orig: 147, 132
+  offset: 0, 0
+  index: -1
+Hand_005
+  rotate: true
+  xy: 842, 327
+  size: 135, 119
+  orig: 135, 119
+  offset: 0, 0
+  index: -1
+Hand_005_blur
+  rotate: false
+  xy: 2, 63
+  size: 148, 133
+  orig: 148, 133
+  offset: 0, 0
+  index: -1
+Hand_hold_02
+  rotate: false
+  xy: 854, 118
+  size: 93, 93
+  orig: 93, 93
+  offset: 0, 0
+  index: -1
+White_BreakArm
+  rotate: false
+  xy: 2, 198
+  size: 250, 310
+  orig: 250, 310
+  offset: 0, 0
+  index: -1
+hand_hold_swing01
+  rotate: false
+  xy: 456, 744
+  size: 397, 154
+  orig: 397, 154
+  offset: 0, 0
+  index: -1
+hand_swing01
+  rotate: false
+  xy: 2, 510
+  size: 452, 388
+  orig: 452, 388
+  offset: 0, 0
+  index: -1
+"/><canvas name="8800147.png" width="1" height="1"><vector name="origin" x="481" y="450"/><int name="z" value="0"/><string name="_hash" value="b592e44959cbf935db088ab48852a195a9ff13051199cca8693b52911e4f46b2"/><string name="_outlink" value="Mob/8800025.img/8800025.png"/></canvas><imgdir name="regen"><string name="aniName" value="01_Arm_arm_create"/></imgdir><imgdir name="stand"><string name="aniName" value="02_Arm_arm_stand"/></imgdir><imgdir name="die1"><string name="aniName" value="07_Arm_arm_die"/></imgdir><imgdir name="skill1"><string name="aniName" value="03_Arm_arm_attack01_15"/></imgdir><imgdir name="skill2"><string name="aniName" value="03_Arm_arm_attack01_25"/></imgdir><imgdir name="spine_effect"><imgdir name="attack_01_effect"><string name="03_attack_01_effect.atlas" value="
+attack_01_effect.png
+size: 1020,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_0102_smash_white
+  rotate: false
+  xy: 503, 772
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+02_030405_smash_white
+  rotate: false
+  xy: 2, 272
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+03_06_smash_white
+  rotate: false
+  xy: 755, 772
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+04_07_smash_white
+  rotate: false
+  xy: 2, 20
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+05_08_smash_white
+  rotate: false
+  xy: 586, 520
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+B01_smash_Blur
+  rotate: true
+  xy: 254, 20
+  size: 212, 168
+  orig: 212, 168
+  offset: 0, 0
+  index: -1
+B02_smash_Blur
+  rotate: false
+  xy: 392, 525
+  size: 192, 242
+  orig: 192, 242
+  offset: 0, 0
+  index: -1
+B03_smash_Blur
+  rotate: false
+  xy: 838, 485
+  size: 178, 285
+  orig: 178, 285
+  offset: 0, 0
+  index: -1
+B04_smash_Blur
+  rotate: false
+  xy: 254, 234
+  size: 162, 288
+  orig: 162, 288
+  offset: 0, 0
+  index: -1
+B05_smash_Blur
+  rotate: false
+  xy: 806, 204
+  size: 179, 279
+  orig: 179, 279
+  offset: 0, 0
+  index: -1
+B06_smash_Blur
+  rotate: false
+  xy: 626, 8
+  size: 171, 249
+  orig: 171, 249
+  offset: 0, 0
+  index: -1
+B07_smash_Blur
+  rotate: false
+  xy: 418, 288
+  size: 161, 235
+  orig: 161, 235
+  offset: 0, 0
+  index: -1
+Magic_01
+  rotate: true
+  xy: 951, 118
+  size: 84, 67
+  orig: 84, 67
+  offset: 0, 0
+  index: -1
+Magic_02
+  rotate: true
+  xy: 987, 354
+  size: 129, 19
+  orig: 129, 19
+  offset: 0, 0
+  index: -1
+Magic_03
+  rotate: false
+  xy: 418, 260
+  size: 141, 26
+  orig: 141, 26
+  offset: 0, 0
+  index: -1
+smk_01
+  rotate: true
+  xy: 581, 259
+  size: 259, 223
+  orig: 259, 223
+  offset: 0, 0
+  index: -1
+smk_02
+  rotate: false
+  xy: 2, 769
+  size: 499, 253
+  orig: 499, 253
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 2, 524
+  size: 388, 243
+  orig: 388, 243
+  offset: 0, 0
+  index: -1
+smoke_main
+  rotate: false
+  xy: 799, 2
+  size: 150, 200
+  orig: 150, 200
+  offset: 0, 0
+  index: -1
+ss_01
+  rotate: false
+  xy: 424, 2
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+attack_01_effect2.png
+size: 954,386
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_0102_smash_hand
+  rotate: false
+  xy: 2, 4
+  size: 163, 106
+  orig: 163, 106
+  offset: 0, 0
+  index: -1
+01_0102_smash_hand(Glow)
+  rotate: true
+  xy: 510, 193
+  size: 191, 134
+  orig: 191, 134
+  offset: 0, 0
+  index: -1
+02_030405_smash_hand
+  rotate: false
+  xy: 167, 12
+  size: 145, 114
+  orig: 145, 114
+  offset: 0, 0
+  index: -1
+02_0304_smash_hand(Glow)
+  rotate: true
+  xy: 623, 21
+  size: 170, 140
+  orig: 170, 140
+  offset: 0, 0
+  index: -1
+03_06_smash_hand
+  rotate: true
+  xy: 314, 10
+  size: 145, 139
+  orig: 145, 139
+  offset: 0, 0
+  index: -1
+03_06_smash_hand(Glow)
+  rotate: true
+  xy: 455, 2
+  size: 171, 166
+  orig: 171, 166
+  offset: 0, 0
+  index: -1
+04_07_smash_hand
+  rotate: false
+  xy: 765, 20
+  size: 145, 114
+  orig: 145, 114
+  offset: 0, 0
+  index: -1
+04_07_smash_hand(Glow)
+  rotate: false
+  xy: 782, 244
+  size: 170, 140
+  orig: 170, 140
+  offset: 0, 0
+  index: -1
+05_08_smash_hand
+  rotate: false
+  xy: 782, 136
+  size: 163, 106
+  orig: 163, 106
+  offset: 0, 0
+  index: -1
+05_08_smash_hand(Glow)
+  rotate: true
+  xy: 646, 193
+  size: 191, 134
+  orig: 191, 134
+  offset: 0, 0
+  index: -1
+B08_smash_Blur
+  rotate: true
+  xy: 326, 175
+  size: 209, 182
+  orig: 209, 182
+  offset: 0, 0
+  index: -1
+smk_03
+  rotate: true
+  xy: 57, 128
+  size: 256, 115
+  orig: 256, 115
+  offset: 0, 0
+  index: -1
+smk_04
+  rotate: true
+  xy: 174, 157
+  size: 227, 150
+  orig: 227, 150
+  offset: 0, 0
+  index: -1
+smoke_04
+  rotate: true
+  xy: 2, 112
+  size: 272, 53
+  orig: 272, 53
+  offset: 0, 0
+  index: -1
+"/><sound name="03_attack_01_effect"/><canvas name="attack_01_effect.png" width="1" height="1"><vector name="origin" x="510" y="512"/><int name="z" value="0"/><string name="_hash" value="c7dffe8d4ddb44b9b4f2156c1056963b1885a77873a32da0bfd9a66162b237d3"/><string name="_outlink" value="Mob/8800003.img/spine_effect/attack_01_effect/attack_01_effect.png"/></canvas><canvas name="attack_01_effect2.png" width="1" height="1"><vector name="origin" x="273" y="284"/><int name="z" value="0"/><string name="_hash" value="900e2fb082e9b66de10e21a20697aa3008ecd8495180339fdf05f3a9c79fbad8"/><string name="_outlink" value="Mob/8800003.img/spine_effect/attack_01_effect/attack_01_effect2.png"/></canvas></imgdir></imgdir><imgdir name="HitParts"><imgdir name="R_Arm_003_bound"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="hardness" value="50"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir><imgdir name="breakEvent"><string name="info" value="info에 durability가 없으면 사용불가"/></imgdir></imgdir></imgdir></imgdir><imgdir name="HitBlendEffect"><imgdir name="info"><int name="alpha" value="80"/><int name="red" value="255"/><int name="green" value="255"/><int name="blue" value="255"/><int name="loopCount" value="3"/><int name="delay" value="200"/></imgdir><imgdir name="HitPartsToSlot"><imgdir name="R_Arm_003_bound"><string name="Arm_B_003" value="Arm_B_003"/><string name="Arm_a_003" value="Arm_a_003"/><string name="Hand_004" value="Hand_004"/></imgdir></imgdir></imgdir><uol name="8800147" value="../8800109/8800109"/></imgdir>

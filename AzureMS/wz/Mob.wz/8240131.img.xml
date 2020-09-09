@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="8240131.img"><imgdir name="info"><int name="ignoreFieldOut" value="1"/><string name="elemAttr" value=""/><int name="hpTagColor" value="1"/><int name="hpTagBgcolor" value="5"/><int name="firstAttack" value="1"/><int name="level" value="129"/><int name="bodyAttack" value="1"/><string name="finalmaxHP" value="6300000000"/><int name="maxHP" value="2100000000"/><int name="maxMP" value="1500000"/><int name="speed" value="20"/><int name="overSpeed" value="1"/><int name="PADamage" value="10000"/><int name="PDRate" value="10"/><int name="MDRate" value="10"/><int name="MADamage" value="10000"/><int name="acc" value="3000"/><int name="eva" value="144"/><int name="pushed" value="1000000000"/><float name="fs" value="10.0"/><int name="boss" value="1"/><int name="exp" value="88400"/><int name="summonType" value="1"/><int name="category" value="1"/><string name="mobType" value="7N"/><int name="explosiveReward" value="1"/><int name="charismaEXP" value="325"/><int name="wp" value="120"/><int name="individualReward" value="1"/><int name="useReaction" value="1"/><int name="skeleton" value="1"/><int name="ignoreMoveImpact" value="1"/></imgdir><imgdir name="move"><string name="aniName" value="stone"/></imgdir><canvas name="skeleton.png" width="671" height="258"><vector name="origin" x="473" y="26"/><int name="z" value="0"/><string name="_hash" value="4f5b68165b3d29ff9709fa90a889bdb21c48726bde5baddd3c7192be505ab04d"/></canvas><string name="skeleton.atlas" value="
+skeleton.png
+size: 671,258
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001
+  rotate: true
+  xy: 392, 24
+  size: 109, 129
+  orig: 109, 129
+  offset: 0, 0
+  index: -1
+001_01
+  rotate: false
+  xy: 577, 149
+  size: 89, 107
+  orig: 89, 107
+  offset: 0, 0
+  index: -1
+dust_01
+  rotate: false
+  xy: 523, 66
+  size: 146, 67
+  orig: 146, 67
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 2, 13
+  size: 388, 243
+  orig: 388, 243
+  offset: 0, 0
+  index: -1
+stones_02
+  rotate: false
+  xy: 392, 135
+  size: 183, 121
+  orig: 183, 121
+  offset: 0, 0
+  index: -1
+stones_03
+  rotate: false
+  xy: 523, 2
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+"/><string name="skeleton.json" value="{
+&quot;skeleton&quot;: { &quot;hash&quot;: &quot;i44CjfxCYqm1gytTweEGyOQ6jQE&quot;, &quot;spine&quot;: &quot;2.1.27&quot;, &quot;width&quot;: 291.09, &quot;height&quot;: 403.36 },
+&quot;bones&quot;: [
+	{ &quot;name&quot;: &quot;root&quot;, &quot;x&quot;: -148, &quot;y&quot;: 412.42 },
+	{ &quot;name&quot;: &quot;bone&quot;, &quot;parent&quot;: &quot;root&quot;, &quot;length&quot;: 201.69, &quot;x&quot;: 116.96, &quot;y&quot;: 104.78, &quot;scaleX&quot;: 0.71, &quot;rotation&quot;: -157.34 },
+	{ &quot;name&quot;: &quot;bone3&quot;, &quot;parent&quot;: &quot;root&quot;, &quot;x&quot;: 219.06, &quot;y&quot;: 10.21 },
+	{ &quot;name&quot;: &quot;dust_01&quot;, &quot;parent&quot;: &quot;root&quot;, &quot;x&quot;: -139.73, &quot;y&quot;: -249.64 },
+	{ &quot;name&quot;: &quot;dust_1&quot;, &quot;parent&quot;: &quot;root&quot;, &quot;x&quot;: -139.73, &quot;y&quot;: -249.64 },
+	{ &quot;name&quot;: &quot;dust_2&quot;, &quot;parent&quot;: &quot;root&quot;, &quot;x&quot;: -139.73, &quot;y&quot;: -249.64 },
+	{ &quot;name&quot;: &quot;stone&quot;, &quot;parent&quot;: &quot;root&quot;, &quot;x&quot;: 13.55, &quot;y&quot;: -294.78 },
+	{ &quot;name&quot;: &quot;stone2&quot;, &quot;parent&quot;: &quot;root&quot;, &quot;x&quot;: 13.55, &quot;y&quot;: -294.78 },
+	{ &quot;name&quot;: &quot;bone2&quot;, &quot;parent&quot;: &quot;bone&quot;, &quot;x&quot;: 176.51, &quot;y&quot;: 3.33, &quot;scaleX&quot;: 1.407 }
+],
+&quot;slots&quot;: [
+	{ &quot;name&quot;: &quot;bone2&quot;, &quot;bone&quot;: &quot;bone&quot;, &quot;attachment&quot;: &quot;001_01&quot; },
+	{ &quot;name&quot;: &quot;stones_2&quot;, &quot;bone&quot;: &quot;stone2&quot; },
+	{ &quot;name&quot;: &quot;001&quot;, &quot;bone&quot;: &quot;bone2&quot;, &quot;attachment&quot;: &quot;001&quot; },
+	{ &quot;name&quot;: &quot;smoke&quot;, &quot;bone&quot;: &quot;dust_01&quot; },
+	{ &quot;name&quot;: &quot;smoke2&quot;, &quot;bone&quot;: &quot;dust_2&quot; },
+	{ &quot;name&quot;: &quot;dust_1&quot;, &quot;bone&quot;: &quot;dust_1&quot;, &quot;attachment&quot;: &quot;dust_01&quot; },
+	{ &quot;name&quot;: &quot;stones_02&quot;, &quot;bone&quot;: &quot;stone&quot; },
+	{ &quot;name&quot;: &quot;stones_03&quot;, &quot;bone&quot;: &quot;bone3&quot; },
+	{ &quot;name&quot;: &quot;1&quot;, &quot;bone&quot;: &quot;bone&quot;, &quot;attachment&quot;: &quot;1&quot; }
+],
+&quot;skins&quot;: {
+	&quot;default&quot;: {
+		&quot;001&quot;: {
+			&quot;001&quot;: { &quot;x&quot;: -0.05, &quot;y&quot;: -2.47, &quot;rotation&quot;: 157.34, &quot;width&quot;: 109, &quot;height&quot;: 129 }
+		},
+		&quot;1&quot;: {
+			&quot;1&quot;: {
+				&quot;type&quot;: &quot;boundingbox&quot;,
+				&quot;vertices&quot;: [ 171.65388, -64.70254, 260.9864, -16.63693, 194.6931, 65.38858, 103.34245, 30.12283, 110.18216, -32.91214 ]
+			}
+		},
+		&quot;bone2&quot;: {
+			&quot;001_01&quot;: { &quot;x&quot;: 169.18, &quot;y&quot;: 22.11, &quot;scaleX&quot;: 1.702, &quot;scaleY&quot;: 1.209, &quot;rotation&quot;: 157.34, &quot;width&quot;: 89, &quot;height&quot;: 107 }
+		},
+		&quot;dust_1&quot;: {
+			&quot;dust_01&quot;: { &quot;width&quot;: 146, &quot;height&quot;: 67 }
+		},
+		&quot;smoke&quot;: {
+			&quot;smoke&quot;: {
+				&quot;type&quot;: &quot;mesh&quot;,
+				&quot;uvs&quot;: [ 1, 1, 0.51829, 1, 0, 1, 0, 0, 0.49652, 0, 1, 0, 0.4938, 0.5196, 0.47747, 0.27189, 0.63804, 0.35881, 0.65165, 0.65866, 0.47747, 0.83683, 0.31144, 0.6717, 0.30328, 0.37619, 0.12637, 0.26755, 0.14542, 0.82814, 0.84489, 0.22844, 0.86666, 0.84987 ],
+				&quot;triangles&quot;: [ 15, 4, 5, 13, 3, 4, 7, 13, 4, 8, 7, 4, 15, 8, 4, 12, 13, 7, 6, 7, 8, 12, 7, 6, 9, 8, 15, 6, 8, 9, 11, 12, 6, 11, 14, 13, 11, 13, 12, 10, 11, 6, 10, 6, 9, 0, 16, 15, 9, 15, 16, 2, 3, 13, 2, 13, 14, 16, 1, 10, 16, 10, 9, 14, 11, 10, 1, 14, 10, 2, 14, 1, 0, 15, 5, 1, 16, 0 ],
+				&quot;vertices&quot;: [ 207.82, -112.04, 20.92, -112.04, -180.17, -112.04, -180.17, 130.95, 12.47, 130.95, 207.82, 130.95, 11.41, 4.69, 5.08, 64.87999, 67.37999, 43.76, 72.66, -29.09, 5.08, -72.39, -59.33, -32.25999, -62.5, 39.54, -131.14, 65.94, -123.74, -70.28, 147.64, 75.44, 156.09, -75.56 ],
+				&quot;hull&quot;: 6
+			}
+		},
+		&quot;smoke2&quot;: {
+			&quot;smoke&quot;: {
+				&quot;type&quot;: &quot;mesh&quot;,
+				&quot;uvs&quot;: [ 1, 1, 0.51829, 1, 0, 1, 0, 0, 0.49652, 0, 1, 0, 0.4938, 0.5196, 0.47747, 0.27189, 0.63804, 0.35881, 0.65165, 0.65866, 0.47747, 0.83683, 0.31144, 0.6717, 0.30328, 0.37619, 0.12637, 0.26755, 0.14542, 0.82814, 0.84489, 0.22844, 0.86666, 0.84987 ],
+				&quot;triangles&quot;: [ 15, 4, 5, 13, 3, 4, 7, 13, 4, 8, 7, 4, 15, 8, 4, 12, 13, 7, 6, 7, 8, 12, 7, 6, 9, 8, 15, 6, 8, 9, 11, 12, 6, 11, 14, 13, 11, 13, 12, 10, 11, 6, 10, 6, 9, 0, 16, 15, 9, 15, 16, 2, 3, 13, 2, 13, 14, 16, 1, 10, 16, 10, 9, 14, 11, 10, 1, 14, 10, 2, 14, 1, 0, 15, 5, 1, 16, 0 ],
+				&quot;vertices&quot;: [ 207.82, -112.04, 20.92, -112.04, -180.17, -112.04, -180.17, 130.95, 12.47, 130.95, 207.82, 130.95, 11.41, 4.69, 5.08, 64.87999, 67.37999, 43.76, 72.66, -29.09, 5.08, -72.39, -59.33, -32.25999, -62.5, 39.54, -131.14, 65.94, -123.74, -70.28, 147.64, 75.44, 156.09, -75.56 ],
+				&quot;hull&quot;: 6
+			}
+		},
+		&quot;stones_02&quot;: {
+			&quot;stones_02&quot;: { &quot;width&quot;: 183, &quot;height&quot;: 121 }
+		},
+		&quot;stones_03&quot;: {
+			&quot;stones_03&quot;: { &quot;width&quot;: 66, &quot;height&quot;: 62 }
+		},
+		&quot;stones_2&quot;: {
+			&quot;stones_02&quot;: { &quot;width&quot;: 183, &quot;height&quot;: 121 }
+		}
+	}
+},
+&quot;animations&quot;: {
+	&quot;stone&quot;: {
+		&quot;slots&quot;: {
+			&quot;1&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;1&quot; },
+					{ &quot;time&quot;: 1.2, &quot;name&quot;: &quot;1&quot; }
+				]
+			},
+			&quot;001&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: null },
+					{ &quot;time&quot;: 1.2, &quot;name&quot;: &quot;001&quot; }
+				],
+				&quot;color&quot;: [
+					{
+						&quot;time&quot;: 1.2,
+						&quot;color&quot;: &quot;ffffff00&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 1.3666, &quot;color&quot;: &quot;ffffffff&quot;, &quot;curve&quot;: &quot;stepped&quot; },
+					{
+						&quot;time&quot;: 3.0333,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 3.2, &quot;color&quot;: &quot;ffffff00&quot; }
+				]
+			},
+			&quot;bone2&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: null },
+					{ &quot;time&quot;: 1.2, &quot;name&quot;: &quot;001_01&quot; }
+				],
+				&quot;color&quot;: [
+					{
+						&quot;time&quot;: 1.2,
+						&quot;color&quot;: &quot;ffffff00&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 1.3666, &quot;color&quot;: &quot;ffffffff&quot;, &quot;curve&quot;: &quot;stepped&quot; },
+					{
+						&quot;time&quot;: 3.0333,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 3.2, &quot;color&quot;: &quot;ffffff00&quot; }
+				]
+			},
+			&quot;dust_1&quot;: {
+				&quot;color&quot;: [
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.767, 0.36 ]
+					},
+					{
+						&quot;time&quot;: 2.1333,
+						&quot;color&quot;: &quot;ffffff00&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.767, 0.36 ]
+					},
+					{ &quot;time&quot;: 2.9, &quot;color&quot;: &quot;ffffff00&quot; }
+				]
+			},
+			&quot;smoke&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;smoke&quot; },
+					{ &quot;time&quot;: 1.2, &quot;name&quot;: null },
+					{ &quot;time&quot;: 1.6333, &quot;name&quot;: &quot;smoke&quot; },
+					{ &quot;time&quot;: 1.9666, &quot;name&quot;: null },
+					{ &quot;time&quot;: 2.4333, &quot;name&quot;: &quot;smoke&quot; }
+				],
+				&quot;color&quot;: [
+					{
+						&quot;time&quot;: 0,
+						&quot;color&quot;: &quot;ffffff00&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 0.1666, &quot;color&quot;: &quot;ffffffff&quot;, &quot;curve&quot;: &quot;stepped&quot; },
+					{
+						&quot;time&quot;: 1,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.1666,
+						&quot;color&quot;: &quot;ffffff00&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.758, 0.41 ]
+					},
+					{
+						&quot;time&quot;: 1.9666,
+						&quot;color&quot;: &quot;ffffff00&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.758, 0.41 ]
+					},
+					{ &quot;time&quot;: 2.7333, &quot;color&quot;: &quot;ffffff00&quot; }
+				]
+			},
+			&quot;smoke2&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 1.3333, &quot;name&quot;: &quot;smoke&quot; },
+					{ &quot;time&quot;: 1.9666, &quot;name&quot;: null },
+					{ &quot;time&quot;: 2.0333, &quot;name&quot;: &quot;smoke&quot; }
+				],
+				&quot;color&quot;: [
+					{
+						&quot;time&quot;: 1.3333,
+						&quot;color&quot;: &quot;ffffff00&quot;,
+						&quot;curve&quot;: [ 0.161, 0.69, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.5333,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.341, 0.36, 0.757, 1 ]
+					},
+					{ &quot;time&quot;: 1.9666, &quot;color&quot;: &quot;ffffff00&quot;, &quot;curve&quot;: &quot;stepped&quot; },
+					{
+						&quot;time&quot;: 2.0333,
+						&quot;color&quot;: &quot;ffffff00&quot;,
+						&quot;curve&quot;: [ 0.128, 0.67, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.1666,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.7333, &quot;color&quot;: &quot;ffffff00&quot; }
+				]
+			},
+			&quot;stones_02&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;stones_02&quot; },
+					{ &quot;time&quot;: 1.6333, &quot;name&quot;: &quot;stones_02&quot; },
+					{ &quot;time&quot;: 1.9666, &quot;name&quot;: null },
+					{ &quot;time&quot;: 2.4333, &quot;name&quot;: &quot;stones_02&quot; }
+				],
+				&quot;color&quot;: [
+					{
+						&quot;time&quot;: 0,
+						&quot;color&quot;: &quot;ffffff00&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 0.2333, &quot;color&quot;: &quot;ffffffff&quot;, &quot;curve&quot;: &quot;stepped&quot; },
+					{
+						&quot;time&quot;: 0.5,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.38, 0.59, 0.728, 1 ]
+					},
+					{
+						&quot;time&quot;: 0.8333,
+						&quot;color&quot;: &quot;ffffff00&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.165, 0.74, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.9666,
+						&quot;color&quot;: &quot;ffffff00&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.165, 0.74, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.7333, &quot;color&quot;: &quot;ffffff00&quot; }
+				]
+			},
+			&quot;stones_2&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 1.6333, &quot;name&quot;: &quot;stones_02&quot; },
+					{ &quot;time&quot;: 1.9666, &quot;name&quot;: null },
+					{ &quot;time&quot;: 2.4333, &quot;name&quot;: &quot;stones_02&quot; }
+				],
+				&quot;color&quot;: [
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.107, 0.78, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.9666,
+						&quot;color&quot;: &quot;ffffff00&quot;,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.107, 0.78, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.7333, &quot;color&quot;: &quot;ffffff00&quot; }
+				]
+			},
+			&quot;stones_03&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 1.6333, &quot;name&quot;: &quot;stones_03&quot; },
+					{ &quot;time&quot;: 1.9666, &quot;name&quot;: null }
+				],
+				&quot;color&quot;: [
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;color&quot;: &quot;ffffffff&quot;,
+						&quot;curve&quot;: [ 0.178, 0.6, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 1.9666, &quot;color&quot;: &quot;ffffff00&quot; }
+				]
+			}
+		},
+		&quot;bones&quot;: {
+			&quot;bone&quot;: {
+				&quot;translate&quot;: [
+					{
+						&quot;time&quot;: 0.8333,
+						&quot;x&quot;: -23.25,
+						&quot;y&quot;: 55.71,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 1.2, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;x&quot;: 0,
+						&quot;y&quot;: -390.22,
+						&quot;curve&quot;: [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{
+						&quot;time&quot;: 1.7333,
+						&quot;x&quot;: -8.79,
+						&quot;y&quot;: -381.54,
+						&quot;curve&quot;: [ 0.302, 0.23, 0.66, 0.64 ]
+					},
+					{
+						&quot;time&quot;: 1.8333,
+						&quot;x&quot;: -42.4,
+						&quot;y&quot;: -360.32,
+						&quot;curve&quot;: [ 0.349, 0.38, 0.688, 0.74 ]
+					},
+					{
+						&quot;time&quot;: 1.9,
+						&quot;x&quot;: -58.82,
+						&quot;y&quot;: -367.65,
+						&quot;curve&quot;: [ 0.375, 0.61, 0.715, 1 ]
+					},
+					{ &quot;time&quot;: 1.9666, &quot;x&quot;: -67.57, &quot;y&quot;: -381.18 },
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;x&quot;: -67.57,
+						&quot;y&quot;: -677.88,
+						&quot;curve&quot;: [ 0.257, 0, 0.618, 0.45 ]
+					},
+					{
+						&quot;time&quot;: 2.6,
+						&quot;x&quot;: -88.93,
+						&quot;y&quot;: -653.76,
+						&quot;curve&quot;: [ 0.33, 0.32, 0.669, 0.67 ]
+					},
+					{
+						&quot;time&quot;: 2.6666,
+						&quot;x&quot;: -104.16,
+						&quot;y&quot;: -651.57,
+						&quot;curve&quot;: [ 0.349, 0.38, 0.688, 0.74 ]
+					},
+					{
+						&quot;time&quot;: 2.7333,
+						&quot;x&quot;: -118.05,
+						&quot;y&quot;: -661.72,
+						&quot;curve&quot;: [ 0.374, 0.61, 0.715, 1 ]
+					},
+					{ &quot;time&quot;: 2.8, &quot;x&quot;: -125.46, &quot;y&quot;: -677.88 },
+					{ &quot;time&quot;: 3.2, &quot;x&quot;: -125.46, &quot;y&quot;: -944.49 }
+				]
+			},
+			&quot;bone2&quot;: {
+				&quot;rotate&quot;: [
+					{
+						&quot;time&quot;: 1.2,
+						&quot;angle&quot;: -154.01,
+						&quot;curve&quot;: [ 0.32, 0.28, 0.757, 1 ]
+					},
+					{ &quot;time&quot;: 1.3666, &quot;angle&quot;: -89.68 },
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;angle&quot;: 0,
+						&quot;curve&quot;: [ 0.138, 0.56, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 1.9666, &quot;angle&quot;: 159.21 },
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;angle&quot;: -89.02,
+						&quot;curve&quot;: [ 0.284, 0.67, 0.523, 0.88 ]
+					},
+					{ &quot;time&quot;: 2.7666, &quot;angle&quot;: 92.07 },
+					{ &quot;time&quot;: 3.2, &quot;angle&quot;: -24.1 }
+				]
+			},
+			&quot;dust_01&quot;: {
+				&quot;translate&quot;: [
+					{
+						&quot;time&quot;: 0,
+						&quot;x&quot;: 100.03,
+						&quot;y&quot;: -178.99,
+						&quot;curve&quot;: [ 0.184, 0.48, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.1666,
+						&quot;x&quot;: 55.38,
+						&quot;y&quot;: -466.78,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;x&quot;: 143.82,
+						&quot;y&quot;: -147.05,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.9666,
+						&quot;x&quot;: 123.03,
+						&quot;y&quot;: -129.93,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;x&quot;: 70.44,
+						&quot;y&quot;: -417.33,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.7333, &quot;x&quot;: 42.31, &quot;y&quot;: -402.66 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0.673, &quot;y&quot;: 0.673 },
+					{
+						&quot;time&quot;: 1.1666,
+						&quot;x&quot;: 0.783,
+						&quot;y&quot;: 0.783,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;x&quot;: 1.3,
+						&quot;y&quot;: 1.3,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.9666,
+						&quot;x&quot;: 1.865,
+						&quot;y&quot;: 1.865,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;x&quot;: 1.339,
+						&quot;y&quot;: 1.339,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.7333, &quot;x&quot;: 1.865, &quot;y&quot;: 1.865 }
+				]
+			},
+			&quot;dust_1&quot;: {
+				&quot;translate&quot;: [
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;x&quot;: 197.82,
+						&quot;y&quot;: -145.53,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.1333,
+						&quot;x&quot;: 192.16,
+						&quot;y&quot;: -97.49,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;x&quot;: 48.04,
+						&quot;y&quot;: -402.7,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.9, &quot;x&quot;: 45.21, &quot;y&quot;: -382.92 }
+				],
+				&quot;scale&quot;: [
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;x&quot;: 1,
+						&quot;y&quot;: 1,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.1333,
+						&quot;x&quot;: 1.603,
+						&quot;y&quot;: 1.603,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;x&quot;: 1,
+						&quot;y&quot;: 1,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.9, &quot;x&quot;: 1.603, &quot;y&quot;: 1.603 }
+				]
+			},
+			&quot;stone&quot;: {
+				&quot;translate&quot;: [
+					{
+						&quot;time&quot;: 0,
+						&quot;x&quot;: 144.26,
+						&quot;y&quot;: 6.85,
+						&quot;curve&quot;: [ 0.164, 0.53, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 0.8333,
+						&quot;x&quot;: 144.26,
+						&quot;y&quot;: -279.65,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;x&quot;: -9.16,
+						&quot;y&quot;: -54.97,
+						&quot;curve&quot;: [ 0.178, 0.63, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.9666,
+						&quot;x&quot;: -61.52,
+						&quot;y&quot;: 3.92,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;x&quot;: -86.39,
+						&quot;y&quot;: -336.41,
+						&quot;curve&quot;: [ 0.178, 0.63, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.7333, &quot;x&quot;: -143.98, &quot;y&quot;: -290.59 }
+				],
+				&quot;scale&quot;: [
+					{
+						&quot;time&quot;: 0,
+						&quot;x&quot;: 0.341,
+						&quot;y&quot;: 0.341,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;x&quot;: 0.681,
+						&quot;y&quot;: 0.681,
+						&quot;curve&quot;: [ 0.178, 0.63, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.9666,
+						&quot;x&quot;: 1.01,
+						&quot;y&quot;: 1.01,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;x&quot;: 0.677,
+						&quot;y&quot;: 0.677,
+						&quot;curve&quot;: [ 0.178, 0.63, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.7333, &quot;x&quot;: 0.992, &quot;y&quot;: 0.992 }
+				]
+			},
+			&quot;stone2&quot;: {
+				&quot;rotate&quot;: [
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;angle&quot;: 0,
+						&quot;curve&quot;: [ 0.107, 0.78, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.9666,
+						&quot;angle&quot;: 18.69,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;angle&quot;: 0,
+						&quot;curve&quot;: [ 0.107, 0.78, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.7333, &quot;angle&quot;: 18.69 }
+				],
+				&quot;translate&quot;: [
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;x&quot;: -47.12,
+						&quot;y&quot;: -19.63,
+						&quot;curve&quot;: [ 0.107, 0.78, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.9666,
+						&quot;x&quot;: -89.01,
+						&quot;y&quot;: 30.1,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.4333,
+						&quot;x&quot;: -94.24,
+						&quot;y&quot;: -304.99,
+						&quot;curve&quot;: [ 0.107, 0.78, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.7333, &quot;x&quot;: -140.06, &quot;y&quot;: -265.72 }
+				],
+				&quot;scale&quot;: [
+					{
+						&quot;time&quot;: 1.6333,
+						&quot;x&quot;: 0.771,
+						&quot;y&quot;: 0.771,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.4333, &quot;x&quot;: 0.633, &quot;y&quot;: 0.633 }
+				],
+				&quot;flipX&quot;: [
+					{ &quot;time&quot;: 1.6333, &quot;x&quot;: true },
+					{ &quot;time&quot;: 2.4333, &quot;x&quot;: true }
+				]
+			},
+			&quot;bone3&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 1.6333, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.9666, &quot;angle&quot;: -176.63 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 1.6333, &quot;x&quot;: -276.87, &quot;y&quot;: -322.17 },
+					{ &quot;time&quot;: 1.7333, &quot;x&quot;: -294.82, &quot;y&quot;: -303.6 },
+					{ &quot;time&quot;: 1.8, &quot;x&quot;: -314.02, &quot;y&quot;: -296.25 },
+					{ &quot;time&quot;: 1.9, &quot;x&quot;: -341.6, &quot;y&quot;: -295.75 },
+					{ &quot;time&quot;: 1.9666, &quot;x&quot;: -351.17, &quot;y&quot;: -304.89 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 1.6333, &quot;x&quot;: 0.627, &quot;y&quot;: 0.627 }
+				]
+			},
+			&quot;dust_2&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 1.3333, &quot;angle&quot;: -98.64 }
+				],
+				&quot;translate&quot;: [
+					{
+						&quot;time&quot;: 1.3333,
+						&quot;x&quot;: 140.41,
+						&quot;y&quot;: 304.86,
+						&quot;curve&quot;: [ 0.161, 0.69, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.9666,
+						&quot;x&quot;: 140.41,
+						&quot;y&quot;: 68.3,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.0333,
+						&quot;x&quot;: 75.89,
+						&quot;y&quot;: -86.02,
+						&quot;curve&quot;: [ 0.128, 0.67, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.7333, &quot;x&quot;: 72.1, &quot;y&quot;: -207.46 }
+				],
+				&quot;scale&quot;: [
+					{
+						&quot;time&quot;: 1.3333,
+						&quot;x&quot;: 0.654,
+						&quot;y&quot;: 0.654,
+						&quot;curve&quot;: [ 0.161, 0.69, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 1.9666,
+						&quot;x&quot;: 1.222,
+						&quot;y&quot;: 0.654,
+						&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						&quot;time&quot;: 2.0333,
+						&quot;x&quot;: 0.544,
+						&quot;y&quot;: 0.654,
+						&quot;curve&quot;: [ 0.128, 0.67, 0.75, 1 ]
+					},
+					{ &quot;time&quot;: 2.7333, &quot;x&quot;: 1.228, &quot;y&quot;: 0.654 }
+				]
+			},
+			&quot;root&quot;: {
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 1.2, &quot;x&quot;: 134.35, &quot;y&quot;: -299.33 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 1.2, &quot;x&quot;: 0.99, &quot;y&quot;: 1 }
+				]
+			}
+		},
+		&quot;ffd&quot;: {
+			&quot;default&quot;: {
+				&quot;smoke&quot;: {
+					&quot;smoke&quot;: [
+						{
+							&quot;time&quot;: 0,
+							&quot;vertices&quot;: [ -38.23944, 76.37935, 147.43057, 263.1327, 347.20395, 464.07162, 590.0112, 222.6728, 398.6302, 30.17523, 204.56778, -165.01941, 273.5163, 156.66148, 339.95477, 103.19699, 256.95813, 61.9234, 178.90659, 129.03143, 202.78365, 239.5725, 306.87143, 264.0739, 381.76944, 195.90437, 476.33624, 238.26404, 332.87708, 366.20428, 208.88583, -49.74022, 49.60522, 91.83139 ],
+							&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;vertices&quot;: [ -32.85601, -17.82859, 122.96347, 257.01584, 345.16513, 483.44147, 590.0112, 222.6728, 450.62296, 33.23364, 181.6887, -287.48975, 254.211, 157.27242, 321.58603, 102.2135, 256.95813, 61.9234, 185.6361, 141.14362, 207.2562, 258.6388, 307.87732, 272.13492, 366.30267, 172.44383, 493.19397, 217.41245, 352.52832, 382.22156, 183.31512, -114.33998, 65.75522, 102.59799 ],
+							&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							&quot;time&quot;: 1.6333,
+							&quot;vertices&quot;: [ -72.34764, 57.76671, -5.39115, 57.76671, 66.65135, 57.76671, 66.65135, -29.28676, -2.36465, -29.28676, -72.34764, -29.28676, -1.98634, 15.94633, 0.28341, -5.61713, -22.0366, 1.949, -23.92814, 28.05215, 0.28341, 43.56273, 23.36016, 29.18707, 24.49507, 3.46222, 49.08499, -5.99541, 46.4369, 42.80611, -50.78792, -9.40018, -53.81437, 44.69763 ],
+							&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							&quot;time&quot;: 1.9666,
+							&quot;vertices&quot;: [ -53.51912, 34.45504, -19.73751, 22.79926, 42.44285, 55.07687, 66.65119, 10.16374, 25.42969, -3.28527, -60.69192, -16.73429, -3.73235, 15.4053, 9.16202, -10.54889, -22.32463, -11.47454, -50.31046, 30.20535, -5.09638, 34.59665, 7.99466, 41.5768, 35.76351, 3.0583, 58.84584, 19.63057, 46.4369, 42.80611, -33.75289, -34.50503, -88.78241, 38.42141 ],
+							&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							&quot;time&quot;: 2.4333,
+							&quot;vertices&quot;: [ -72.34764, 57.76671, -5.39115, 57.76671, 66.65135, 57.76671, 66.65135, -29.28676, -2.36465, -29.28676, -72.34764, -29.28676, -1.98634, 15.94633, 0.28341, -5.61713, -22.0366, 1.949, -23.92814, 28.05215, 0.28341, 43.56273, 23.36016, 29.18707, 24.49507, 3.46222, 49.08499, -5.99541, 46.4369, 42.80611, -50.78792, -9.40018, -53.81437, 44.69763 ],
+							&quot;curve&quot;: [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							&quot;time&quot;: 2.7333,
+							&quot;vertices&quot;: [ -53.51912, 34.45504, -19.73751, 22.79926, 42.44285, 55.07687, 66.65119, 10.16374, 25.42969, -3.28527, -60.69192, -16.73429, -3.73235, 15.4053, 9.16202, -10.54889, -22.32463, -11.47454, -50.31046, 30.20535, -5.09638, 34.59665, 7.99466, 41.5768, 35.76351, 3.0583, 58.84584, 19.63057, 46.4369, 42.80611, -33.75289, -34.50503, -88.78241, 38.42141 ]
+						}
+					]
+				},
+				&quot;smoke2&quot;: {
+					&quot;smoke&quot;: [
+						{ &quot;time&quot;: 2.0333 }
+					]
+				}
+			}
+		},
+		&quot;drawOrder&quot;: [
+			{
+				&quot;time&quot;: 0,
+				&quot;offsets&quot;: [
+					{ &quot;slot&quot;: &quot;stones_02&quot;, &quot;offset&quot;: -6 }
+				]
+			}
+		]
+	}
+}
+}"/></imgdir>

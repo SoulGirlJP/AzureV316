@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="8800022.img"><imgdir name="info"><int name="hpTagColor" value="4"/><int name="hpTagBgcolor" value="5"/><int name="noFlip" value="1"/><int name="firstAttack" value="1"/><int name="noregen" value="1"/><int name="publicReward" value="1"/><int name="explosiveReward" value="1"/><int name="rareItemDropLevel" value="3"/><imgdir name="default"><canvas name="0" width="1" height="1"><vector name="origin" x="102" y="73"/><int name="z" value="0"/><string name="_hash" value="77a39ca244f4b35e87a142c845cb6a93618cfc34b46d81c7d256f46e792bf02b"/><string name="_outlink" value="Mob/8800002.img/info/default/0"/></canvas></imgdir><int name="level" value="55"/><int name="maxHP" value="2200000"/><int name="maxMP" value="60000"/><int name="PADamage" value="500"/><int name="PDDamage" value="200"/><int name="PDRate" value="30"/><int name="MADamage" value="500"/><int name="MDDamage" value="200"/><int name="MDRate" value="30"/><int name="acc" value="49"/><int name="eva" value="36"/><int name="pushed" value="1000000000"/><float name="fs" value="10.0"/><int name="boss" value="1"/><int name="exp" value="130000"/><int name="summonType" value="1"/><int name="category" value="6"/><string name="mobType" value="7N"/><imgdir name="attack"><imgdir name="0"><int name="action" value="1"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="cooltime" value="20000"/><int name="fixAttack" value="1"/><imgdir name="callSkillWithData"><int name="skill" value="176"/><int name="level" value="31"/><int name="delay" value="500"/></imgdir><int name="doFirst" value="1"/></imgdir><imgdir name="1"><int name="action" value="2"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="cooltime" value="60000"/><int name="fixAttack" value="1"/><imgdir name="callSkillWithData"><int name="skill" value="201"/><int name="level" value="162"/><int name="delay" value="500"/></imgdir><int name="doFirst" value="1"/></imgdir><imgdir name="2"><int name="action" value="3"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="cooltime" value="30000"/><int name="fixAttack" value="1"/><imgdir name="callSkillWithData"><int name="skill" value="201"/><int name="level" value="173"/><int name="delay" value="500"/></imgdir><int name="doFirst" value="1"/></imgdir><imgdir name="3"><int name="action" value="4"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="cooltime" value="5000"/><int name="knockback" value="1"/><int name="fixDamR" value="99"/><int name="disease" value="123"/><int name="level" value="3"/><int name="doFirst" value="1"/><int name="ignoreStance" value="100"/></imgdir><imgdir name="4"><int name="action" value="5"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="cooltime" value="60000"/><int name="fixAttack" value="1"/><imgdir name="callSkillWithData"><int name="skill" value="140"/><int name="level" value="1"/><int name="delay" value="500"/></imgdir><int name="doFirst" value="1"/></imgdir><imgdir name="5"><int name="action" value="6"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="cooltime" value="120000"/><int name="fixAttack" value="1"/><imgdir name="callSkillWithData"><int name="skill" value="141"/><int name="level" value="1"/><int name="delay" value="500"/></imgdir><int name="doFirst" value="1"/></imgdir><imgdir name="6"><int name="action" value="7"/><int name="attackRatio" value="100"/><int name="type" value="3"/><int name="conMP" value="2"/><int name="magic" value="1"/><int name="fixDamR" value="80"/><int name="doFirst" value="1"/><int name="cooltime" value="8000"/></imgdir><imgdir name="7"><int name="action" value="8"/><int name="attackRatio" value="100"/><int name="type" value="3"/><int name="conMP" value="2"/><int name="magic" value="1"/><int name="fixDamR" value="10"/><int name="doFirst" value="1"/><int name="disease" value="126"/><int name="level" value="18"/><int name="cooltime" value="5000"/></imgdir><imgdir name="8"><int name="action" value="9"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="cooltime" value="10000"/><int name="fixAttack" value="1"/><imgdir name="callSkillWithData"><int name="skill" value="170"/><int name="level" value="1"/><int name="delay" value="500"/></imgdir><int name="doFirst" value="1"/></imgdir></imgdir><imgdir name="skill"><imgdir name="0"><int name="skill" value="235"/><int name="action" value="1"/><int name="level" value="3"/><int name="skillAfter" value="1200"/><int name="onlyFsm" value="1"/></imgdir><imgdir name="1"><int name="skill" value="176"/><int name="action" value="2"/><int name="level" value="29"/><int name="onlyFsm" value="1"/></imgdir><imgdir name="2"><int name="skill" value="201"/><int name="action" value="3"/><int name="level" value="162"/><int name="onlyFsm" value="1"/></imgdir><imgdir name="3"><int name="skill" value="201"/><int name="action" value="4"/><int name="level" value="173"/><int name="onlyFsm" value="1"/></imgdir><imgdir name="4"><int name="skill" value="140"/><int name="action" value="5"/><int name="level" value="1"/><int name="onlyFsm" value="1"/><int name="skillAfter" value="630"/></imgdir><imgdir name="5"><int name="skill" value="141"/><int name="action" value="6"/><int name="level" value="1"/><int name="onlyFsm" value="1"/><int name="skillAfter" value="630"/></imgdir><imgdir name="6"><int name="skill" value="170"/><int name="action" value="7"/><int name="level" value="1"/><int name="effectAfter" value="0"/><int name="skillForbid" value="3000"/><int name="onlyFsm" value="1"/></imgdir></imgdir><int name="individualReward" value="1"/><int name="useReaction" value="1"/><int name="skeleton" value="1"/><int name="ignoreMoveImpact" value="1"/><int name="charismaEXP" value="13"/></imgdir><imgdir name="skill1"><string name="aniName" value="01_stand"/></imgdir><imgdir name="skill2"><string name="aniName" value="01_stand"/></imgdir><imgdir name="skill3"><string name="aniName" value="01_stand"/></imgdir><imgdir name="skill4"><string name="aniName" value="02_buff_summon"/></imgdir><imgdir name="skill5"><string name="aniName" value="02_buff_attack_ignore"/></imgdir><imgdir name="skill6"><string name="aniName" value="02_buff_magic_ignore"/></imgdir><imgdir name="skill7"><string name="aniName" value="05_teleport_down"/></imgdir><imgdir name="skillAfter7"><string name="aniName" value="05_teleport_up"/></imgdir><imgdir name="stand"><string name="aniName" value="01_stand"/></imgdir><imgdir name="attack1"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir></imgdir><string name="aniName" value="01_stand"/></imgdir><imgdir name="attack2"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir></imgdir><string name="aniName" value="01_stand"/></imgdir><imgdir name="attack3"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir></imgdir><string name="aniName" value="02_buff_summon"/></imgdir><imgdir name="attack4"><imgdir name="info"><imgdir name="range"><vector name="lt" x="-700" y="-800"/><vector name="rb" x="700" y="50"/></imgdir><imgdir name="hit"><canvas name="0" width="1" height="1"><vector name="origin" x="104" y="94"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="21e562e98f0bcdbe507a518131b4ea07f71d2ea78771008331ba12ab7eef8881"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/0"/></canvas><canvas name="1" width="1" height="1"><vector name="origin" x="104" y="91"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="634808ffddab2cbf5512ebc0d510d46ac9b34d286ffe6e7d0da7bd93604682a6"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/1"/></canvas><canvas name="2" width="1" height="1"><vector name="origin" x="104" y="90"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="e8e9f351aca53cee25eba7bae69ef39d9a2fa715d3534f8ed73a2ceeebd0c783"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/2"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="100" y="91"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="34a281319c1f926663b9ec2fef6a46ac0941ddb87059f962785ea8bc4a03b79e"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/3"/></canvas><canvas name="4" width="1" height="1"><vector name="origin" x="93" y="92"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="83648230f6fd1b30539247e4d612a8fe08779ce541beb90aed04deb4f8d7abc8"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/4"/></canvas><canvas name="5" width="1" height="1"><vector name="origin" x="93" y="92"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="fd5107ea65237332f238b1235bb9e0fcd4e98b52045c46f60dbe7045dbee3b1e"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/5"/></canvas></imgdir><int name="attackAfter" value="19980"/><long name="onlyFsm" value="1"/></imgdir><string name="aniName" value="06_attack_bust"/></imgdir><imgdir name="attack5"><string name="aniName" value="02_buff_attack_ignore"/><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir><int name="onlyFsm" value="1"/></imgdir></imgdir><imgdir name="attack6"><string name="aniName" value="02_buff_magic_ignore"/><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir><int name="onlyFsm" value="1"/></imgdir></imgdir><imgdir name="attack7"><imgdir name="info"><imgdir name="range"><int name="start" value="-2"/><int name="areaCount" value="5"/><int name="attackCount" value="1"/><int name="reverse" value="1"/><vector name="lt" x="-170" y="-218"/><vector name="rb" x="154" y="0"/></imgdir><imgdir name="areaWarning"><canvas name="0" width="1" height="1"><vector name="origin" x="129" y="635"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="731d9e427604e97845dc23308d1dc1796d4ff60653a6ffad49193d65eeed367e"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/0"/></canvas><canvas name="1" width="1" height="1"><vector name="origin" x="134" y="636"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="100747d8e1a97a068cce3f8a3bdaf1865fe073f2d50442a0a91c8136b8025b3a"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/1"/></canvas><canvas name="2" width="1" height="1"><vector name="origin" x="139" y="640"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="7e2b77d23be3ecb77b8197a00eff00ceb1cc527e5fc0f53c98004c961dff15af"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/2"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="149" y="656"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="eeb9fb1a0e57ae8ecef2c3eb5963576c2b5ab1f32c5402ac0eb3dfe9a8035c5c"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/3"/></canvas><canvas name="4" width="1" height="1"><vector name="origin" x="153" y="621"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="1e83794221c2ec7630134e82ed2a16523c88da132aa19eccd1d8c5b8b7a9f7b2"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/4"/></canvas><canvas name="5" width="1" height="1"><vector name="origin" x="154" y="570"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="491c8ea06207e410c2289e00f3b7b738304ce5bb61d33e2199353317496743ba"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/5"/></canvas><canvas name="6" width="1" height="1"><vector name="origin" x="184" y="232"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="97cf3afe34af5b88828581637438e013dba43ba3434add5c44c598017b08c17e"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/6"/></canvas><canvas name="7" width="1" height="1"><vector name="origin" x="195" y="232"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="430ac5d80dab4a17bd1899ffffcf9294fd539f0f7d02285c74426f54578124a4"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/7"/></canvas><canvas name="8" width="1" height="1"><vector name="origin" x="198" y="232"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="2a3f5b8a834df3522a4897755166c257eb1c2936b04aa6970b17f424f69f5798"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/8"/></canvas><canvas name="9" width="1" height="1"><vector name="origin" x="203" y="237"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="9594290f398d7291c6e38ca3167f5b0df341ed8a0f401b05fc6724cf0cf812e2"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/9"/></canvas><canvas name="10" width="1" height="1"><vector name="origin" x="206" y="249"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="7634b5ddfdb4038f63e2b15522ded01d298cb6aa99986f3158a7974851e5ebad"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/10"/></canvas><canvas name="11" width="1" height="1"><vector name="origin" x="206" y="248"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="a2910b1a431d39c4979d2e1e9f2a796a4994846141aa89b789f161ddd6b982cf"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/11"/></canvas><canvas name="12" width="1" height="1"><vector name="origin" x="200" y="250"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="6dc27817778757eeb922d5b3dad58cb85a6ecbe2c92f6af5d5d13c99a6b3fdc7"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/12"/></canvas><canvas name="13" width="1" height="1"><vector name="origin" x="197" y="251"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="a053345330d59303128638681d1cec381983b17cd332c7769c7b219ee67ab169"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/13"/></canvas><canvas name="14" width="1" height="1"><vector name="origin" x="194" y="251"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="a1f5712b772df4e269c0e33a61c4ca42d352bbb0e789680c1bd8ebddea10b0be"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/14"/></canvas><canvas name="15" width="1" height="1"><vector name="origin" x="190" y="251"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="4548decd1138e3f6b803b5468b6c69bce8afaa128157b51168f50606059d0f1d"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/15"/></canvas><canvas name="16" width="1" height="1"><vector name="origin" x="211" y="250"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="cbd258e4b0a93c30dd42fc772b6bbbaff98b0718651012585fca49cd5bed7df2"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/16"/></canvas><canvas name="17" width="1" height="1"><vector name="origin" x="211" y="248"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="e80012eeef1b952ac81e9d5015cbc04c652e2a255f26c8ecb0b7bb59e5f67c97"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/17"/></canvas><canvas name="18" width="1" height="1"><vector name="origin" x="209" y="250"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="e3a31abde3e2b72aed3c864807b759fb198ad360ca5aa98a89911dff5a03c2bd"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/18"/></canvas><uol name="19" value="13"/><uol name="20" value="14"/><uol name="21" value="15"/><uol name="22" value="16"/><uol name="23" value="17"/><uol name="24" value="18"/><uol name="25" value="13"/><uol name="26" value="14"/><uol name="27" value="15"/><uol name="28" value="16"/><uol name="29" value="17"/><uol name="30" value="18"/><canvas name="31" width="1" height="1"><vector name="origin" x="204" y="247"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="2aaa64946cc197018bfdce49d6130279b834f16464e0dbbd34ab0499f2b8683d"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/31"/></canvas><canvas name="32" width="1" height="1"><vector name="origin" x="197" y="243"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="2dfa3c34c07eb6e70409d81181d7a3539ea651f943ae40854db65eb6244b2a6e"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/32"/></canvas><canvas name="33" width="1" height="1"><vector name="origin" x="185" y="234"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="faabc598b51936ffbd552216367713fd56cddeb3a206fa70e7368666426f52db"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/33"/></canvas><canvas name="34" width="1" height="1"><vector name="origin" x="173" y="198"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="c0d8e39d604c124cb4269e778f9bdc140eca5172765c1601d2267509a9c95d36"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/34"/></canvas><canvas name="35" width="1" height="1"><vector name="origin" x="-13" y="48"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="4b0e36013836dd42bf165ee5ae673b2b0a2b1f537098034849251fc8fb6df1df"/><string name="_outlink" value="Mob/8800002.img/attack7/info/areaWarning/35"/></canvas></imgdir><imgdir name="hit"><canvas name="0" width="1" height="1"><vector name="origin" x="104" y="94"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/0"/></canvas><canvas name="1" width="1" height="1"><vector name="origin" x="104" y="91"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/1"/></canvas><canvas name="2" width="1" height="1"><vector name="origin" x="104" y="90"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/2"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="100" y="91"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/3"/></canvas><canvas name="4" width="1" height="1"><vector name="origin" x="93" y="92"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/4"/></canvas><canvas name="5" width="1" height="1"><vector name="origin" x="93" y="92"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/5"/></canvas></imgdir><int name="attackAfter" value="2220"/></imgdir><string name="aniName" value="03_jump_start"/><imgdir name="speak"><int name="prob" value="100"/><string name="0" value="마법진 안으로 피해야만 자쿰의 공격을 견뎌낼 수 있네!"/><int name="floatNotice" value="0"/></imgdir></imgdir><imgdir name="attack8"><imgdir name="info"><imgdir name="range"><int name="start" value="-5"/><int name="areaCount" value="11"/><int name="attackCount" value="7"/><vector name="lt" x="-67" y="-85"/><vector name="rb" x="59" y="4"/></imgdir><imgdir name="areaWarning"><canvas name="0" width="1" height="1"><vector name="origin" x="38" y="17"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="989ff670144e1aba3347de4c33d01995d72a7c31ca6b64cdb930b452743b4e41"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/0"/></canvas><canvas name="1" width="1" height="1"><vector name="origin" x="41" y="18"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="d98b644f9bd1a6810e4d1ac1f1069f82be25ad0b0dac5c003b6992338aa92f57"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/1"/></canvas><canvas name="2" width="1" height="1"><vector name="origin" x="42" y="17"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="692b79faf2378c79dac89e65b520aa05d97339b929ce7333a78583d7ddf1b4d5"/><string name="_outlink" value="Mob/8240004.img/attack1/info/areaWarning/2"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="39" y="18"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="fbe17535b4e7e19bd406b9a519e87428c76782a2b24d4c691938cd958ef7ec0f"/><string name="_outlink" value="Mob/8240004.img/attack1/info/areaWarning/3"/></canvas><canvas name="4" width="1" height="1"><vector name="origin" x="41" y="17"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="79ede6ccc04701a18f87c9267084237a945df28f2bf80ceb9b4c9f5a93e4da2f"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/4"/></canvas><canvas name="5" width="1" height="1"><vector name="origin" x="42" y="18"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="de8fbe27e06b4ad2cfb48d1b541d221aebcfe71820ed81bdca73fa664ed1ce7f"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/5"/></canvas><canvas name="6" width="1" height="1"><vector name="origin" x="39" y="17"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="67e240b9b4b9c3efcfaeb7d5e5bd259db73df086dd9fd54522a98cb2aac623f5"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/6"/></canvas><canvas name="7" width="1" height="1"><vector name="origin" x="41" y="18"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="023a68caf7fdd8e1fe37c5b47ad4123221667d0e82c6b6e0ae6eb6436f027b83"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/7"/></canvas><canvas name="8" width="1" height="1"><vector name="origin" x="39" y="675"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="8467c8e934994aad97de50c82ce06ad782b0285907f6dc73fd2c291fee8c155b"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/8"/></canvas><canvas name="9" width="1" height="1"><vector name="origin" x="41" y="650"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="346cfc1349f8f6bcb6ba1b5959394d789baf3a6bb9255ddcf32c6cd8c4c3c3f7"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/9"/></canvas><canvas name="10" width="1" height="1"><vector name="origin" x="39" y="592"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="1d4fc08f53fa664d82bedc15b9bff2db91b03ce802511102604302cbe5f60d9b"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/10"/></canvas><canvas name="11" width="1" height="1"><vector name="origin" x="41" y="466"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="32af9d87305127b53ff16d08d9e1a35a06e661e9a0009e1e6fc675a86030eadf"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/11"/></canvas><canvas name="12" width="1" height="1"><vector name="origin" x="39" y="237"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="16cb8c113e68af253f7fd4357da10941c06e8d4745a3458407da97dd9f0e80ac"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/12"/></canvas><canvas name="13" width="1" height="1"><vector name="origin" x="64" y="80"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="177ea36071b78456060f82b112a37314f4b22712edea05e40fd10169527b2248"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/13"/></canvas><canvas name="14" width="1" height="1"><vector name="origin" x="57" y="94"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="e1a9eda02ff97e374256cc4283fcd24b7c3880b852021b0b90600017d3707016"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/14"/></canvas><canvas name="15" width="1" height="1"><vector name="origin" x="67" y="99"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="d525c159e0084ba0b91802e1b37dbab4305eea786028d93a55e38470639c7633"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/15"/></canvas><canvas name="16" width="1" height="1"><vector name="origin" x="62" y="100"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="88d593ca5a625b506f8d91a8b064c0022b50d3821a451d4372606b9608d54ab5"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/16"/></canvas><canvas name="17" width="1" height="1"><vector name="origin" x="64" y="100"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="ac02fd20ee37bbd69989633d6bdf795c401c5b4df3a7b9a6e83ffeaf3fb543aa"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/17"/></canvas><canvas name="18" width="1" height="1"><vector name="origin" x="45" y="101"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="5ed72fd268e5b41c71df73a730d172faa1c4617300427e8dbd5087928b8719ca"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/18"/></canvas><canvas name="19" width="1" height="1"><vector name="origin" x="39" y="53"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="c34e9e7b159f1a79a5fa7d0a27b6c7144dcbef9b9a415863662ad4e35888a476"/><string name="_outlink" value="Mob/8800002.img/attack8/info/areaWarning/19"/></canvas></imgdir><imgdir name="hit"><canvas name="0" width="1" height="1"><vector name="origin" x="104" y="94"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/0"/></canvas><canvas name="1" width="1" height="1"><vector name="origin" x="104" y="91"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/1"/></canvas><canvas name="2" width="1" height="1"><vector name="origin" x="104" y="90"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/2"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="100" y="91"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/3"/></canvas><canvas name="4" width="1" height="1"><vector name="origin" x="93" y="92"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/4"/></canvas><canvas name="5" width="1" height="1"><vector name="origin" x="93" y="92"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_outlink" value="Mob/8800002.img/attack4/info/hit/5"/></canvas></imgdir><int name="randDelayAttack" value="6000"/><int name="attackAfter" value="1530"/></imgdir><string name="aniName" value="01_stand"/></imgdir><imgdir name="attack9"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir></imgdir><string name="aniName" value="05_teleport_down"/></imgdir><imgdir name="die1"><string name="aniName" value="07_die"/></imgdir><imgdir name="phaseAtlas"><imgdir name="zakum.png"><canvas name="3" width="1023" height="1024"><vector name="origin" x="795" y="471"/><int name="z" value="0"/><string name="_hash" value="29f9836989e0529a6089b95580eb27f7586c622e60ca2c228572500a18b9b8b0"/></canvas><canvas name="4" width="1023" height="1024"><vector name="origin" x="795" y="471"/><int name="z" value="0"/><string name="_hash" value="21436d9591986fcbc773111d60870c9969790823963c0c41fe4a32550849d5e7"/></canvas></imgdir></imgdir><imgdir name="spine_effect"><imgdir name="body_attack"><string name="body_attack.atlas" value="
+body_attack.png
+size: 1021,1005
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dark_Light
+  rotate: false
+  xy: 2, 374
+  size: 922, 629
+  orig: 922, 629
+  offset: 0, 0
+  index: -1
+Dark_circle_1
+  rotate: false
+  xy: 359, 80
+  size: 293, 292
+  orig: 293, 292
+  offset: 0, 0
+  index: -1
+Light_3
+  rotate: false
+  xy: 2, 20
+  size: 355, 352
+  orig: 355, 352
+  offset: 0, 0
+  index: -1
+Small_Light_1
+  rotate: false
+  xy: 816, 130
+  size: 203, 242
+  orig: 203, 242
+  offset: 0, 0
+  index: -1
+stone11
+  rotate: false
+  xy: 654, 89
+  size: 160, 283
+  orig: 160, 283
+  offset: 0, 0
+  index: -1
+stone3
+  rotate: false
+  xy: 816, 2
+  size: 193, 126
+  orig: 193, 126
+  offset: 0, 0
+  index: -1
+stone4
+  rotate: false
+  xy: 745, 15
+  size: 65, 24
+  orig: 65, 24
+  offset: 0, 0
+  index: -1
+stone5
+  rotate: true
+  xy: 926, 933
+  size: 70, 69
+  orig: 70, 69
+  offset: 0, 0
+  index: -1
+stone6
+  rotate: false
+  xy: 654, 39
+  size: 49, 48
+  orig: 49, 48
+  offset: 0, 0
+  index: -1
+stone7
+  rotate: false
+  xy: 705, 12
+  size: 38, 27
+  orig: 38, 27
+  offset: 0, 0
+  index: -1
+stone8
+  rotate: false
+  xy: 705, 41
+  size: 98, 46
+  orig: 98, 46
+  offset: 0, 0
+  index: -1
+
+body_attack2.png
+size: 971,1012
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle_1
+  rotate: false
+  xy: 2, 167
+  size: 841, 843
+  orig: 841, 843
+  offset: 0, 0
+  index: -1
+stone1
+  rotate: false
+  xy: 845, 764
+  size: 124, 246
+  orig: 124, 246
+  offset: 0, 0
+  index: -1
+stone2
+  rotate: true
+  xy: 234, 10
+  size: 155, 187
+  orig: 155, 187
+  offset: 0, 0
+  index: -1
+stone9
+  rotate: false
+  xy: 2, 2
+  size: 230, 163
+  orig: 230, 163
+  offset: 0, 0
+  index: -1
+
+body_attack3.png
+size: 878,834
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dark_circle_2
+  rotate: false
+  xy: 229, 439
+  size: 401, 393
+  orig: 401, 393
+  offset: 0, 0
+  index: -1
+Light_1
+  rotate: false
+  xy: 2, 2
+  size: 436, 435
+  orig: 436, 435
+  offset: 0, 0
+  index: -1
+Light_2
+  rotate: false
+  xy: 440, 2
+  size: 436, 435
+  orig: 436, 435
+  offset: 0, 0
+  index: -1
+stone10
+  rotate: true
+  xy: 2, 641
+  size: 191, 225
+  orig: 191, 225
+  offset: 0, 0
+  index: -1
+
+body_attack4.png
+size: 728,714
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Light_4
+  rotate: false
+  xy: 2, 2
+  size: 724, 710
+  orig: 724, 710
+  offset: 0, 0
+  index: -1
+
+body_attack5.png
+size: 748,678
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Small_Light-2
+  rotate: false
+  xy: 2, 2
+  size: 744, 674
+  orig: 744, 674
+  offset: 0, 0
+  index: -1
+
+body_attack6.png
+size: 645,613
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dark_circle_3
+  rotate: false
+  xy: 2, 2
+  size: 641, 609
+  orig: 641, 609
+  offset: 0, 0
+  index: -1
+
+body_attack7.png
+size: 726,519
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+smoke
+  rotate: false
+  xy: 2, 2
+  size: 722, 515
+  orig: 722, 515
+  offset: 0, 0
+  index: -1
+
+body_attack8.png
+size: 560,560
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle_2
+  rotate: false
+  xy: 2, 2
+  size: 556, 556
+  orig: 556, 556
+  offset: 0, 0
+  index: -1
+"/><canvas name="body_attack.png" width="1021" height="1005"><vector name="origin" x="510" y="502"/><int name="z" value="0"/><string name="_hash" value="a5d7588df180a41397fbb412307c600a03fa96436210817f44b6bffa6b7d3c7c"/></canvas><canvas name="body_attack2.png" width="971" height="1012"><vector name="origin" x="485" y="506"/><int name="z" value="0"/><string name="_hash" value="753e4f4f80592d655e5b94c70e85e77bf6a1d0865cc672eeb57d5bf46e439aa3"/></canvas><canvas name="body_attack3.png" width="878" height="834"><vector name="origin" x="439" y="417"/><int name="z" value="0"/><string name="_hash" value="908f2da97b3c2755292b4c2d42b3bf5a0c849536183d51ccdd660b1767c94383"/></canvas><canvas name="body_attack4.png" width="728" height="714"><vector name="origin" x="364" y="357"/><int name="z" value="0"/><string name="_hash" value="8cf80af69d757afa2bf1cfc2acff84a0b2142f66e616fa59f32f649781ab22da"/></canvas><canvas name="body_attack5.png" width="748" height="678"><vector name="origin" x="374" y="339"/><int name="z" value="0"/><string name="_hash" value="80958ba1e617b02a1282e886fe1c4b073d17589c9ab6fb87450bd375fe1593e7"/></canvas><canvas name="body_attack6.png" width="645" height="613"><vector name="origin" x="322" y="306"/><int name="z" value="0"/><string name="_hash" value="ca1c8771b104c8e6a166dd3ba48aa52a402859e214d76aa86044ae5365399170"/></canvas><canvas name="body_attack7.png" width="726" height="519"><vector name="origin" x="363" y="259"/><int name="z" value="0"/><string name="_hash" value="f10dbaf49f26749eff375fa633c8cde3a694a70497d4b91d6f17d639c9057dd3"/></canvas><canvas name="body_attack8.png" width="560" height="560"><vector name="origin" x="280" y="280"/><int name="z" value="0"/><string name="_hash" value="aeb7a01257a313f5c104d6d6dfffe0db868bbd751992662c44b93e0767654999"/></canvas><uol name="body_attack" value="../../../8800102/spine_effect/body_attack/body_attack"/></imgdir><imgdir name="puple"><string name="buff.atlas" value="
+buff.png
+size: 1021,1023
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001
+  rotate: false
+  xy: 290, 73
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+004
+  rotate: false
+  xy: 779, 2
+  size: 108, 109
+  orig: 108, 109
+  offset: 0, 0
+  index: -1
+006
+  rotate: false
+  xy: 2, 13
+  size: 101, 214
+  orig: 101, 214
+  offset: 0, 0
+  index: -1
+008
+  rotate: true
+  xy: 105, 42
+  size: 185, 183
+  orig: 185, 183
+  offset: 0, 0
+  index: -1
+010
+  rotate: false
+  xy: 779, 113
+  size: 240, 114
+  orig: 240, 114
+  offset: 0, 0
+  index: -1
+011
+  rotate: false
+  xy: 446, 83
+  size: 331, 144
+  orig: 331, 144
+  offset: 0, 0
+  index: -1
+012
+  rotate: true
+  xy: 889, 5
+  size: 106, 84
+  orig: 106, 84
+  offset: 0, 0
+  index: -1
+014
+  rotate: false
+  xy: 2, 229
+  size: 965, 792
+  orig: 965, 792
+  offset: 0, 0
+  index: -1
+
+buff2.png
+size: 959,965
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+002
+  rotate: false
+  xy: 2, 235
+  size: 143, 142
+  orig: 143, 142
+  offset: 0, 0
+  index: -1
+003
+  rotate: false
+  xy: 2, 101
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1
+005
+  rotate: false
+  xy: 2, 2
+  size: 95, 97
+  orig: 95, 97
+  offset: 0, 0
+  index: -1
+007
+  rotate: false
+  xy: 147, 245
+  size: 131, 132
+  orig: 131, 132
+  offset: 0, 0
+  index: -1
+009
+  rotate: false
+  xy: 822, 828
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+015
+  rotate: false
+  xy: 2, 379
+  size: 818, 584
+  orig: 818, 584
+  offset: 0, 0
+  index: -1
+016
+  rotate: false
+  xy: 280, 289
+  size: 92, 88
+  orig: 92, 88
+  offset: 0, 0
+  index: -1
+017
+  rotate: false
+  xy: 822, 737
+  size: 105, 89
+  orig: 105, 89
+  offset: 0, 0
+  index: -1
+
+buff3.png
+size: 591,591
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+013
+  rotate: false
+  xy: 2, 2
+  size: 587, 587
+  orig: 587, 587
+  offset: 0, 0
+  index: -1
+"/><uol name="buff.png" value="../../../8800102/spine_effect/puple/buff.png"/><uol name="buff2.png" value="../../../8800102/spine_effect/puple/buff2.png"/><uol name="buff3.png" value="../../../8800102/spine_effect/puple/buff3.png"/><uol name="buff" value="../../../8800102/spine_effect/puple/buff"/></imgdir><imgdir name="blue"><string name="buff.atlas" value="
+buff.png
+size: 1021,1023
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001
+  rotate: false
+  xy: 290, 73
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+004
+  rotate: false
+  xy: 779, 2
+  size: 108, 109
+  orig: 108, 109
+  offset: 0, 0
+  index: -1
+006
+  rotate: false
+  xy: 2, 13
+  size: 101, 214
+  orig: 101, 214
+  offset: 0, 0
+  index: -1
+008
+  rotate: true
+  xy: 105, 42
+  size: 185, 183
+  orig: 185, 183
+  offset: 0, 0
+  index: -1
+010
+  rotate: false
+  xy: 779, 113
+  size: 240, 114
+  orig: 240, 114
+  offset: 0, 0
+  index: -1
+011
+  rotate: false
+  xy: 446, 83
+  size: 331, 144
+  orig: 331, 144
+  offset: 0, 0
+  index: -1
+012
+  rotate: true
+  xy: 889, 5
+  size: 106, 84
+  orig: 106, 84
+  offset: 0, 0
+  index: -1
+014
+  rotate: false
+  xy: 2, 229
+  size: 965, 792
+  orig: 965, 792
+  offset: 0, 0
+  index: -1
+
+buff2.png
+size: 959,965
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+002
+  rotate: false
+  xy: 2, 235
+  size: 143, 142
+  orig: 143, 142
+  offset: 0, 0
+  index: -1
+003
+  rotate: false
+  xy: 2, 101
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1
+005
+  rotate: false
+  xy: 2, 2
+  size: 95, 97
+  orig: 95, 97
+  offset: 0, 0
+  index: -1
+007
+  rotate: false
+  xy: 147, 245
+  size: 131, 132
+  orig: 131, 132
+  offset: 0, 0
+  index: -1
+009
+  rotate: false
+  xy: 822, 828
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+015
+  rotate: false
+  xy: 2, 379
+  size: 818, 584
+  orig: 818, 584
+  offset: 0, 0
+  index: -1
+016
+  rotate: false
+  xy: 280, 289
+  size: 92, 88
+  orig: 92, 88
+  offset: 0, 0
+  index: -1
+017
+  rotate: false
+  xy: 822, 737
+  size: 105, 89
+  orig: 105, 89
+  offset: 0, 0
+  index: -1
+
+buff3.png
+size: 591,591
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+013
+  rotate: false
+  xy: 2, 2
+  size: 587, 587
+  orig: 587, 587
+  offset: 0, 0
+  index: -1
+"/><uol name="buff.png" value="../../../8800102/spine_effect/puple/buff.png"/><uol name="buff2.png" value="../../../8800102/spine_effect/puple/buff2.png"/><uol name="buff3.png" value="../../../8800102/spine_effect/puple/buff3.png"/></imgdir><imgdir name="red"><string name="buff.atlas" value="
+buff.png
+size: 1021,1023
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001
+  rotate: false
+  xy: 290, 73
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+004
+  rotate: false
+  xy: 779, 2
+  size: 108, 109
+  orig: 108, 109
+  offset: 0, 0
+  index: -1
+006
+  rotate: false
+  xy: 2, 13
+  size: 101, 214
+  orig: 101, 214
+  offset: 0, 0
+  index: -1
+008
+  rotate: true
+  xy: 105, 42
+  size: 185, 183
+  orig: 185, 183
+  offset: 0, 0
+  index: -1
+010
+  rotate: false
+  xy: 779, 113
+  size: 240, 114
+  orig: 240, 114
+  offset: 0, 0
+  index: -1
+011
+  rotate: false
+  xy: 446, 83
+  size: 331, 144
+  orig: 331, 144
+  offset: 0, 0
+  index: -1
+012
+  rotate: true
+  xy: 889, 5
+  size: 106, 84
+  orig: 106, 84
+  offset: 0, 0
+  index: -1
+014
+  rotate: false
+  xy: 2, 229
+  size: 965, 792
+  orig: 965, 792
+  offset: 0, 0
+  index: -1
+
+buff2.png
+size: 959,965
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+002
+  rotate: false
+  xy: 2, 235
+  size: 143, 142
+  orig: 143, 142
+  offset: 0, 0
+  index: -1
+003
+  rotate: false
+  xy: 2, 101
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1
+005
+  rotate: false
+  xy: 2, 2
+  size: 95, 97
+  orig: 95, 97
+  offset: 0, 0
+  index: -1
+007
+  rotate: false
+  xy: 147, 245
+  size: 131, 132
+  orig: 131, 132
+  offset: 0, 0
+  index: -1
+009
+  rotate: false
+  xy: 822, 828
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+015
+  rotate: false
+  xy: 2, 379
+  size: 818, 584
+  orig: 818, 584
+  offset: 0, 0
+  index: -1
+016
+  rotate: false
+  xy: 280, 289
+  size: 92, 88
+  orig: 92, 88
+  offset: 0, 0
+  index: -1
+017
+  rotate: false
+  xy: 822, 737
+  size: 105, 89
+  orig: 105, 89
+  offset: 0, 0
+  index: -1
+
+buff3.png
+size: 591,591
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+013
+  rotate: false
+  xy: 2, 2
+  size: 587, 587
+  orig: 587, 587
+  offset: 0, 0
+  index: -1
+"/><uol name="buff.png" value="../../../8800102/spine_effect/puple/buff.png"/><uol name="buff2.png" value="../../../8800102/spine_effect/puple/buff2.png"/><uol name="buff3.png" value="../../../8800102/spine_effect/puple/buff3.png"/><uol name="buff" value="../../../8800102/spine_effect/puple/buff"/></imgdir></imgdir><imgdir name="HitParts"><imgdir name="box_body"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="hardness" value="50"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir><imgdir name="breakEvent"><string name="info" value="info에 durability가 없으면 사용불가"/></imgdir></imgdir></imgdir></imgdir><imgdir name="HitBlendEffect"><imgdir name="info"><int name="alpha" value="80"/><int name="red" value="255"/><int name="green" value="255"/><int name="blue" value="255"/><int name="loopCount" value="3"/><int name="delay" value="200"/></imgdir><imgdir name="HitPartsToSlot"><imgdir name="box_body"><string name="body" value="body"/></imgdir></imgdir></imgdir><string name="8800022.atlas" value="
+zakum.png
+size: 1023,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm
+  rotate: true
+  xy: 70, 16
+  size: 50, 71
+  orig: 50, 71
+  offset: 0, 0
+  index: -1
+L_arm_b
+  rotate: false
+  xy: 912, 477
+  size: 63, 71
+  orig: 63, 71
+  offset: 0, 0
+  index: -1
+R_arm
+  rotate: true
+  xy: 337, 48
+  size: 117, 135
+  orig: 117, 135
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 977, 500
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+face_down
+  rotate: true
+  xy: 909, 119
+  size: 162, 90
+  orig: 162, 90
+  offset: 0, 0
+  index: -1
+face_up
+  rotate: true
+  xy: 718, 129
+  size: 152, 189
+  orig: 152, 189
+  offset: 0, 0
+  index: -1
+field
+  rotate: false
+  xy: 522, 283
+  size: 460, 192
+  orig: 460, 192
+  offset: 0, 0
+  index: -1
+field2
+  rotate: false
+  xy: 2, 68
+  size: 333, 97
+  orig: 333, 97
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 646, 17
+  size: 112, 70
+  orig: 112, 70
+  offset: 0, 0
+  index: -1
+head1
+  rotate: true
+  xy: 904, 821
+  size: 201, 110
+  orig: 201, 110
+  offset: 0, 0
+  index: -1
+head_P
+  rotate: false
+  xy: 474, 34
+  size: 170, 95
+  orig: 170, 95
+  offset: 0, 0
+  index: -1
+head_PB
+  rotate: true
+  xy: 912, 550
+  size: 170, 95
+  orig: 170, 95
+  offset: 0, 0
+  index: -1
+jump
+  rotate: true
+  xy: 855, 2
+  size: 43, 59
+  orig: 43, 59
+  offset: 0, 0
+  index: -1
+jump-b
+  rotate: true
+  xy: 143, 15
+  size: 51, 67
+  orig: 51, 67
+  offset: 0, 0
+  index: -1
+jump_0
+  rotate: false
+  xy: 522, 722
+  size: 380, 300
+  orig: 380, 300
+  offset: 0, 0
+  index: -1
+jump_1
+  rotate: false
+  xy: 2, 422
+  size: 518, 600
+  orig: 518, 600
+  offset: 0, 0
+  index: -1
+magic
+  rotate: true
+  xy: 212, 22
+  size: 44, 63
+  orig: 44, 63
+  offset: 0, 0
+  index: -1
+magic-b
+  rotate: false
+  xy: 855, 56
+  size: 52, 71
+  orig: 52, 71
+  offset: 0, 0
+  index: -1
+pattern
+  rotate: true
+  xy: 909, 47
+  size: 70, 101
+  orig: 70, 101
+  offset: 0, 0
+  index: -1
+piece
+  rotate: false
+  xy: 941, 23
+  size: 19, 22
+  orig: 19, 22
+  offset: 0, 0
+  index: -1
+piece1
+  rotate: false
+  xy: 718, 4
+  size: 135, 123
+  orig: 135, 123
+  offset: 0, 0
+  index: -1
+piece2
+  rotate: false
+  xy: 2, 4
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+smo1
+  rotate: false
+  xy: 489, 131
+  size: 227, 150
+  orig: 227, 150
+  offset: 0, 0
+  index: -1
+smo2
+  rotate: false
+  xy: 2, 167
+  size: 485, 253
+  orig: 485, 253
+  offset: 0, 0
+  index: -1
+smo3
+  rotate: false
+  xy: 522, 477
+  size: 388, 243
+  orig: 388, 243
+  offset: 0, 0
+  index: -1
+stone
+  rotate: true
+  xy: 904, 722
+  size: 97, 117
+  orig: 97, 117
+  offset: 0, 0
+  index: -1
+tooth1
+  rotate: false
+  xy: 916, 22
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+tooth2
+  rotate: false
+  xy: 277, 43
+  size: 22, 23
+  orig: 22, 23
+  offset: 0, 0
+  index: -1
+tooth3
+  rotate: false
+  xy: 977, 524
+  size: 23, 24
+  orig: 23, 24
+  offset: 0, 0
+  index: -1
+tooth4
+  rotate: false
+  xy: 489, 370
+  size: 22, 23
+  orig: 22, 23
+  offset: 0, 0
+  index: -1
+tooth5
+  rotate: false
+  xy: 489, 395
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: -1
+
+boss_body2.png
+size: 623,641
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0001
+  rotate: false
+  xy: 2, 106
+  size: 533, 533
+  orig: 533, 533
+  offset: 0, 0
+  index: -1
+pattern_G
+  rotate: false
+  xy: 2, 2
+  size: 70, 102
+  orig: 70, 102
+  offset: 0, 0
+  index: -1
+pattern_GB
+  rotate: false
+  xy: 537, 551
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+
+boss_body3.png
+size: 537,537
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0002
+  rotate: false
+  xy: 2, 2
+  size: 533, 533
+  orig: 533, 533
+  offset: 0, 0
+  index: -1
+
+boss_body4.png
+size: 537,537
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0003
+  rotate: false
+  xy: 2, 2
+  size: 533, 533
+  orig: 533, 533
+  offset: 0, 0
+  index: -1
+
+boss_body5.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body6.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+002
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body7.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+003
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body8.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+004
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body9.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+005
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body10.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+006
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body11.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+007
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body12.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+008
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body13.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+009
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body14.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+010
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body15.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+011
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body16.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+012
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body17.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+013
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body18.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+014
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body19.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+015
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+
+boss_body20.png
+size: 533,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+016
+  rotate: false
+  xy: 2, 2
+  size: 529, 514
+  orig: 529, 514
+  offset: 0, 0
+  index: -1
+"/><uol name="8800022" value="../8800102/8800102"/><uol name="zakum.png" value="../8800102/zakum.png"/><uol name="boss_body2.png" value="../8800102/boss_body2.png"/><uol name="boss_body3.png" value="../8800102/boss_body3.png"/><uol name="boss_body4.png" value="../8800102/boss_body4.png"/><uol name="boss_body5.png" value="../8800102/boss_body5.png"/><uol name="boss_body6.png" value="../8800102/boss_body6.png"/><uol name="boss_body7.png" value="../8800102/boss_body7.png"/><uol name="boss_body8.png" value="../8800102/boss_body8.png"/><uol name="boss_body9.png" value="../8800102/boss_body9.png"/><uol name="boss_body10.png" value="../8800102/boss_body10.png"/><uol name="boss_body11.png" value="../8800102/boss_body11.png"/><uol name="boss_body12.png" value="../8800102/boss_body12.png"/><uol name="boss_body13.png" value="../8800102/boss_body13.png"/><uol name="boss_body14.png" value="../8800102/boss_body14.png"/><uol name="boss_body15.png" value="../8800102/boss_body15.png"/><uol name="boss_body16.png" value="../8800102/boss_body16.png"/><uol name="boss_body17.png" value="../8800102/boss_body17.png"/><uol name="boss_body18.png" value="../8800102/boss_body18.png"/><uol name="boss_body19.png" value="../8800102/boss_body19.png"/><uol name="boss_body20.png" value="../8800102/boss_body20.png"/></imgdir>

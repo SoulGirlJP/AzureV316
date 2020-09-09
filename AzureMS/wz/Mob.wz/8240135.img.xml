@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="8240135.img"><imgdir name="info"><int name="useReaction" value="1"/><int name="skeleton" value="1"/><int name="level" value="5"/><int name="maxHP" value="100"/><int name="acc" value="203"/><int name="eva" value="51"/><int name="pushed" value="900"/><float name="fs" value="10.0"/><int name="summonType" value="1"/><int name="category" value="8"/><string name="mobType" value="1N"/><int name="hideHP" value="1"/><int name="hideName" value="1"/><int name="noFlip" value="1"/><int name="boss" value="1"/><imgdir name="revive"><int name="0" value="8240138"/></imgdir><int name="underObject" value="1"/><int name="blockUserMove" value="1"/><int name="bodyAttack" value="1"/><int name="hideUserDamage" value="1"/></imgdir><imgdir name="hit1"><string name="aniName" value="01"/></imgdir><imgdir name="die1"><string name="aniName" value="02"/></imgdir><imgdir name="stand"><string name="aniName" value="01"/></imgdir><string name="8240135.atlas" value="
+01_iceeffect_A.png
+size: 992,470
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bit down_A
+  rotate: true
+  xy: 645, 187
+  size: 40, 53
+  orig: 40, 53
+  offset: 0, 0
+  index: -1
+bit down_B
+  rotate: true
+  xy: 871, 119
+  size: 78, 96
+  orig: 78, 96
+  offset: 0, 0
+  index: -1
+bit down_c
+  rotate: false
+  xy: 798, 318
+  size: 54, 51
+  orig: 54, 51
+  offset: 0, 0
+  index: -1
+bit_01
+  rotate: false
+  xy: 946, 415
+  size: 40, 53
+  orig: 40, 53
+  offset: 0, 0
+  index: -1
+bit_02
+  rotate: false
+  xy: 946, 352
+  size: 34, 61
+  orig: 34, 61
+  offset: 0, 0
+  index: -1
+bit_03
+  rotate: false
+  xy: 798, 371
+  size: 55, 97
+  orig: 55, 97
+  offset: 0, 0
+  index: -1
+bit_04
+  rotate: true
+  xy: 867, 199
+  size: 63, 123
+  orig: 63, 123
+  offset: 0, 0
+  index: -1
+bit_05
+  rotate: true
+  xy: 700, 189
+  size: 73, 165
+  orig: 73, 165
+  offset: 0, 0
+  index: -1
+bit_06
+  rotate: false
+  xy: 871, 21
+  size: 78, 96
+  orig: 78, 96
+  offset: 0, 0
+  index: -1
+bit_07
+  rotate: true
+  xy: 946, 316
+  size: 34, 40
+  orig: 34, 40
+  offset: 0, 0
+  index: -1
+bit_08
+  rotate: true
+  xy: 429, 183
+  size: 44, 95
+  orig: 44, 95
+  offset: 0, 0
+  index: -1
+bit_09
+  rotate: false
+  xy: 798, 268
+  size: 53, 48
+  orig: 53, 48
+  offset: 0, 0
+  index: -1
+body_01
+  rotate: false
+  xy: 429, 229
+  size: 225, 239
+  orig: 225, 239
+  offset: 0, 0
+  index: -1
+body_02
+  rotate: true
+  xy: 871, 264
+  size: 204, 73
+  orig: 204, 73
+  offset: 0, 0
+  index: -1
+dust_A
+  rotate: false
+  xy: 515, 10
+  size: 181, 171
+  orig: 181, 171
+  offset: 0, 0
+  index: -1
+dust_B
+  rotate: true
+  xy: 698, 4
+  size: 181, 171
+  orig: 181, 171
+  offset: 0, 0
+  index: -1
+dust_C
+  rotate: true
+  xy: 526, 196
+  size: 31, 117
+  orig: 31, 117
+  offset: 0, 0
+  index: -1
+dust_D
+  rotate: false
+  xy: 2, 8
+  size: 232, 136
+  orig: 232, 136
+  offset: 0, 0
+  index: -1
+dust_D_01
+  rotate: true
+  xy: 2, 146
+  size: 322, 206
+  orig: 322, 206
+  offset: 0, 0
+  index: -1
+dust_E_01
+  rotate: true
+  xy: 656, 278
+  size: 190, 140
+  orig: 190, 140
+  offset: 0, 0
+  index: -1
+s_smoke
+  rotate: false
+  xy: 236, 2
+  size: 277, 172
+  orig: 277, 172
+  offset: 0, 0
+  index: -1
+smoke2
+  rotate: true
+  xy: 210, 176
+  size: 292, 217
+  orig: 292, 217
+  offset: 0, 0
+  index: -1
+"/><sound name="8240135"/><canvas name="01_iceeffect_A.png" width="992" height="470"><vector name="origin" x="909" y="46"/><int name="z" value="0"/><string name="_hash" value="6c3f6a4c93f43ef9300eb94e2e12246c7bbd7647cbc436683fb3244392f38552"/></canvas></imgdir>
