@@ -280,7 +280,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
         if (from.getMapId() == 120000102) {
             from.addDamageMeter(rDamage);
             from.send(MainPacketCreator.RemovePopupSay());
-            from.send(MainPacketCreator.OnAddPopupSay(9000036, 3000, "´©Àû µ¥¹ÌÁö #e[#n#r" + Randomizer.Comma(from.getDamageMeter()) + "#k#e]", ""));
+            from.send(MainPacketCreator.OnAddPopupSay(9000036, 3000, "ëˆ„ì  ë°ë¯¸ì§€ #e[#n#r" + Randomizer.Comma(from.getDamageMeter()) + "#k#e]", ""));
         }
 
         if (finalmaxhp > 0) {
@@ -447,6 +447,11 @@ public class MapleMonster extends AbstractLoadedMapleLife {
                 }
             }
             highestDamageChar = attacker;
+            
+        if(isEliteMonster()){
+            exp = ((((attacker.getLevel()) - (attacker.getLevel() % 10)) / 10) * 3) + 3;
+        }
+            
         }
          if (exp > 0) { // Exp Rate?
             // Experience level || exp rate || exp
@@ -944,9 +949,9 @@ public class MapleMonster extends AbstractLoadedMapleLife {
         long highdamage = 0;
 
         if (Randomizer.nextInt(100) <= 2) {
-            if (killer.getLevel() - getStats().getLevel() <= 5) { // ¸ó½ºÅÍ·¹º§ º¸´Ù 5ÀÌ»ó ³ôÀ¸¸éµå·Ó¾ÈµÊ
+            if (killer.getLevel() - getStats().getLevel() <= 5) { // ëª¬ìŠ¤í„°ë ˆë²¨ ë³´ë‹¤ 5ì´ìƒ ë†’ìœ¼ë©´ë“œë¡­ì•ˆë¨
                 cash = Randomizer.rand(50, 150);
-            } else if (killer.getLevel() - getStats().getLevel() <= -20) { // ¸ó½ºÅÍ·¹º§ º¸´Ù 20ÀÌ»ó ³·À¸¸é ´õ³ô°Ô
+            } else if (killer.getLevel() - getStats().getLevel() <= -20) { // ëª¬ìŠ¤í„°ë ˆë²¨ ë³´ë‹¤ 20ì´ìƒ ë‚®ìœ¼ë©´ ë”ë†’ê²Œ
                 cash = Randomizer.rand(60, 200);
             }
         }
@@ -1236,15 +1241,15 @@ public class MapleMonster extends AbstractLoadedMapleLife {
         sb.append(getMp());
         sb.append("/ ");
         sb.append(getMobMaxMp());
-        sb.append(" (»ì¾ÆÀÖÀ½: ");
+        sb.append(" (ì‚´ì•„ìžˆìŒ: ");
         sb.append(isAlive());
-        sb.append(" ¿ÀºêÁ§Æ®id: ");
+        sb.append(" ì˜¤ë¸Œì íŠ¸id: ");
         sb.append(getObjectId());
-        sb.append(") || ÄÁÆ®·Ñ·¯ ÀÌ¸§ : ");
+        sb.append(") || ì»¨íŠ¸ë¡¤ëŸ¬ ì´ë¦„ : ");
         final MapleCharacter chr = controller.get();
-        sb.append(chr != null ? chr.getName() : "¾øÀ½");
-        sb.append(" FinalMaxHP ¿©ºÎ: ");
-        sb.append(isFinalBoss() ? "¿¹" : "¾Æ´Ï¿À");
+        sb.append(chr != null ? chr.getName() : "ì—†ìŒ");
+        sb.append(" FinalMaxHP ì—¬ë¶€: ");
+        sb.append(isFinalBoss() ? "ì˜ˆ" : "ì•„ë‹ˆì˜¤");
 
         return sb.toString();
     }
@@ -1641,7 +1646,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
                         idrop = new Item(d.itemId, (byte) 0,
                                 (short) (d.Maximum != 1 ? Randomizer.nextInt(d.Maximum - d.Minimum) + d.Minimum : 1),
                                 (byte) 0);
-                        idrop.setGMLog(chr.getName() + "°¡ ½ºÆ¿·Î ÀÎÇÑ ¾ÆÀÌÅÛ ÈÉÄ¡±â·Î ¾òÀº ¾ÆÀÌÅÛ");
+                        idrop.setGMLog(chr.getName() + "ê°€ ìŠ¤í‹¸ë¡œ ì¸í•œ ì•„ì´í…œ í›”ì¹˜ê¸°ë¡œ ì–»ì€ ì•„ì´í…œ");
                     }
                     stolen = d.itemId;
                     map.spawnMobDrop(idrop, map.calcDropPos(getPosition(), getPosition()), this, chr, (byte) 0,
