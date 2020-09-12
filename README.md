@@ -5,3 +5,4 @@ i will update it and rewrite it from scratch later on to get a better understand
 
 Contributors (growing list)
 - Dipi 
+- Brandon
