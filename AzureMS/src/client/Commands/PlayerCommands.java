@@ -203,6 +203,75 @@ public class PlayerCommands {
 			return "Increases your LUK by the specified amount based on your available remaining ap.";
 		}
 	}
+	
+	@Command(names = {"hp"}, parameters = "<amount>", requiredType = AccountType.PLAYER)
+	public static class HP extends PlayerCommand {
+		@Override
+		public int execute(MapleCharacter chr, String[] splitted) {
+			int hp = Integer.parseInt(splitted[1]);
+			final PlayerStats stat = chr.getStat();
+			long MaxHP = stat.getMaxHp();
+			if (chr.getRemainingAp() < hp
+					|| chr.getRemainingAp() < 0 || hp < 0) {
+				chr.dropMessage(5, "An error occurred.");
+				return 0;
+			} else {
+				for (int i = 0; i < hp; i++) {
+					ISkill improvingMaxHP = null;
+					int improvingMaxHPLevel = 0;
+					if (chr.getJob() == 0) {
+						MaxHP += Randomizer.rand(8, 12);
+					} else if (chr.getJob() >= 100 && chr.getJob() <= 132) {
+						improvingMaxHP = SkillFactory.getSkill(1000001);
+						improvingMaxHPLevel = chr.getSkillLevel(improvingMaxHP);
+						MaxHP += Randomizer.rand(20, 24);
+						if (improvingMaxHPLevel >= 1) {
+							MaxHP += improvingMaxHP.getEffect(improvingMaxHPLevel).getY();
+						}
+					} else if (chr.getJob() >= 200 && chr.getJob() <= 232) {
+						MaxHP += Randomizer.rand(6, 10);
+					} else if (chr.getJob() >= 300 && chr.getJob() <= 322) {
+						MaxHP += Randomizer.rand(16, 20);
+					} else if (chr.getJob() >= 400 && chr.getJob() <= 422) {
+						MaxHP += Randomizer.rand(20, 24);
+					} else if (chr.getJob() >= 500 && chr.getJob() <= 522) {
+						improvingMaxHP = SkillFactory.getSkill(5100000);
+						improvingMaxHPLevel = chr.getSkillLevel(improvingMaxHP);
+						MaxHP += Randomizer.rand(16, 20);
+						if (improvingMaxHPLevel >= 1) {
+							MaxHP += improvingMaxHP.getEffect(improvingMaxHPLevel).getY();
+						}
+					} else if (chr.getJob() >= 1100 && chr.getJob() <= 1111) {
+						improvingMaxHP = SkillFactory.getSkill(11000000);
+						improvingMaxHPLevel = chr.getSkillLevel(improvingMaxHP);
+						MaxHP += Randomizer.rand(36, 42);
+						if (improvingMaxHPLevel >= 1) {
+							MaxHP += improvingMaxHP.getEffect(improvingMaxHPLevel).getY();
+						}
+					} else if (chr.getJob() >= 1200 && chr.getJob() <= 1211) {
+						MaxHP += Randomizer.rand(15, 21);
+					} else if ((chr.getJob() >= 1300 && chr.getJob() <= 1311) || (chr.getJob() >= 1400 && chr.getJob() <= 1411)) {
+						MaxHP += Randomizer.rand(30, 36);
+					} else if (chr.getJob() == 3101 || (chr.getJob() >= 3120 && chr.getJob() <= 3122)) {
+						MaxHP += Randomizer.rand(30, 36);
+					} else {
+						MaxHP += Randomizer.rand(50, 100);
+					}
+					// MaxHP = Math.min(500000, MaxHP);
+					stat.setMaxHp((int) MaxHP);
+					chr.setRemainingAp(chr.getRemainingAp() - 1);
+					chr.updateSingleStat(PlayerStatList.AVAILABLEAP, chr.getRemainingAp());
+					chr.updateSingleStat(PlayerStatList.MAXHP, stat.getMaxHp());
+				}
+			}
+			return 1;
+		}
+
+		@Override
+		public String getDescription() {
+			return "Increases your HP by the specified amount based on your available remaining ap.";
+		}
+	}
 
 	@Command(names = {"referrer"}, parameters = "", requiredType = AccountType.PLAYER)
 	public static class Referrer extends PlayerCommand {
