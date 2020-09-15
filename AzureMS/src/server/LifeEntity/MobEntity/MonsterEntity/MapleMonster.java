@@ -447,16 +447,16 @@ public class MapleMonster extends AbstractLoadedMapleLife {
                 }
             }
             highestDamageChar = attacker;
-            
-        if(isEliteMonster()){
-            exp = ((((attacker.getLevel()) - (attacker.getLevel() % 10)) / 10) * 3) + 3;
-        }
-            
+
+            if (isEliteMonster()) {
+                exp = ((((attacker.getLevel()) - (attacker.getLevel() % 10)) / 10) * 3) + 3;
+            }
         }
          if (exp > 0) { // Exp Rate?
             // Experience level || exp rate || exp
              //EXP formulae Azure316 pre-adjustment
             if (attacker.getLevel() < 30) {
+
                  exp *= 2 * (1+ (attacker.getLevel()/10));
              }
              else if (attacker.getLevel() < 900) {
