@@ -1,10 +1,6 @@
 package constants;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import client.Character.MapleCharacter;
 import client.Stats.PlayerStats;
@@ -7960,5 +7956,50 @@ public class GameConstants {
     public static boolean isMichael(final int job) {
         return job == 5000 || (job >= 5000 && job <= 5112);
     }
-    
+
+    //methods to initialise hashmap for MapleCharacter.checkForceShield()
+    //EXPERIMENTAL; lazy intialisation
+    // contents: <jobID, equipID>
+    public static final Map<Short, Integer> checkSecondary = new HashMap<Short, Integer>(){{
+        put((short) 110, 1352202);// Hero
+        put((short) 120, 1352212);// Paladin
+        put((short) 130, 1352222);// Dark Knight
+        put((short) 210, 1352232);// Fire Poison
+        put((short) 220, 1352242);// Ice Lightning
+        put((short) 230, 1352252);// Bishop
+        put((short) 301, 1353703);// PathFinder
+        put((short) 310, 1352262);// Bowmaster
+        put((short) 320, 1352272);// Marksman
+        put((short) 430, 1342000);// Dual Blade
+        put((short) 410, 1352292);// Night Lord
+        put((short) 420, 1352282);// Shadower
+        put((short) 501, 1352923);// Cannoneer
+        put((short) 510, 1352902);// Bucaneer
+        put((short) 520, 1352912);// Corsair
+        put((short) 1100, 1352972);// Dawn Warrior
+        put((short) 1200, 1352972);// Flame Wizard
+        put((short) 1300, 1352972);// Wind Archer
+        put((short) 1400, 1352972);// Night Walker
+        put((short) 1500, 1352972);// Thunder Breaker
+        put((short) 2100, 1352932);// Aran
+        put((short) 2200, 1352943);// Evan
+        put((short) 2300, 1352003);// Mercedes
+        put((short) 2400, 1352103);// Phantom
+        put((short) 2500, 1353103);// Shade
+        put((short) 2700, 1352403);// Luminous
+        put((short) 3001, 1099004);// Demon Slayer Beginner
+        put((short) 3200, 1352953);// Battle Mage
+        put((short) 3300, 1352963);// Wild Hunter
+        put((short) 3500, 1352703);// Mechanic
+        put((short) 3600, 1353004);// Xenon
+        put((short) 3700, 1353403);// Blaster
+        put((short) 5100, 1098003);// Mihile
+        put((short) 6001, 1352604);// Angelic Buster Beginner
+        put((short) 6100, 1352503);// Kaiser
+        put((short) 6400, 1353303);// Cadena
+        put((short) 6500, 1352604);// Angelic Buster
+        put((short) 14200, 1353203);// Kinesis
+        put((short) 15200, 1353503);// Illium
+        put((short) 15500, 1353603);// Ark
+    }};
 }
