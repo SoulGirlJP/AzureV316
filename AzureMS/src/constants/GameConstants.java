@@ -7960,7 +7960,7 @@ public class GameConstants {
     //methods to initialise hashmap for MapleCharacter.checkForceShield()
     //EXPERIMENTAL; lazy intialisation
     // contents: <jobID, equipID>
-    public static final Map<Short, Integer> checkSecondary = new HashMap<Short, Integer>(){{
+    public static final Map<Short, Integer> CHECK_SECONDARY = new HashMap<Short, Integer>(){{
         put((short) 110, 1352202);// Hero
         put((short) 120, 1352212);// Paladin
         put((short) 130, 1352222);// Dark Knight

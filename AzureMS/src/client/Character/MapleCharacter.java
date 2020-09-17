@@ -5753,12 +5753,12 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
         Equip equip;
         boolean potential = false;
 
-        int equipID = GameConstants.checkSecondary.getOrDefault(job, 0);
+        int equipID = GameConstants.CHECK_SECONDARY.getOrDefault(job, 0);
         if (equipID != 0){//check that the jobID has a corresponding secondary weapon coded
             equip = (Equip) li.getEquipById(equipID);
             potential = true;
         }
-        else{
+        else {
             equip = null;
         }
 

@@ -1196,7 +1196,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
                         idrop = new Item(d.itemId, (byte) 0,
                                 (short) (d.Maximum != 1 ? Randomizer.nextInt(d.Maximum - d.Minimum) + d.Minimum : 1),
                                 (byte) 0);
-                        idrop.setGMLog(chr.getName() + "obtained items using Steal.");
+                        idrop.setGMLog(chr.getName() + " obtained items using Steal.");
                     }
                     stolen = d.itemId;
                     map.spawnMobDrop(idrop, map.calcDropPos(getPosition(), getPosition()), this, chr, (byte) 0,
