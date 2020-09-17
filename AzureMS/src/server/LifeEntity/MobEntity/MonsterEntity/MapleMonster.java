@@ -791,15 +791,15 @@ public class MapleMonster extends AbstractLoadedMapleLife {
         sb.append(getMp());
         sb.append("/ ");
         sb.append(getMobMaxMp());
-        sb.append(" (살아있음: ");
+        sb.append(" (Alive: ");
         sb.append(isAlive());
-        sb.append(" 오브젝트id: ");
+        sb.append(" Object ID: ");
         sb.append(getObjectId());
-        sb.append(") || 컨트롤러 이름 : ");
+        sb.append(") || Controller Name : ");
         final MapleCharacter chr = controller.get();
-        sb.append(chr != null ? chr.getName() : "없음");
-        sb.append(" FinalMaxHP 여부: ");
-        sb.append(isFinalBoss() ? "예" : "아니오");
+        sb.append(chr != null ? chr.getName() : "None");
+        sb.append(" FinalMaxHP Final Boss: ");
+        sb.append(isFinalBoss() ? "True" : "False");
 
         return sb.toString();
     }
@@ -1196,7 +1196,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
                         idrop = new Item(d.itemId, (byte) 0,
                                 (short) (d.Maximum != 1 ? Randomizer.nextInt(d.Maximum - d.Minimum) + d.Minimum : 1),
                                 (byte) 0);
-                        idrop.setGMLog(chr.getName() + "가 스틸로 인한 아이템 훔치기로 얻은 아이템");
+                        idrop.setGMLog(chr.getName() + " obtained items using Steal.");
                     }
                     stolen = d.itemId;
                     map.spawnMobDrop(idrop, map.calcDropPos(getPosition(), getPosition()), this, chr, (byte) 0,
