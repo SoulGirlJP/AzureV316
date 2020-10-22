@@ -728,7 +728,14 @@ public class MapleClient {
 								loggedIn = true;
 								loginok = 0;
 								SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHH");
-								updateLastConnection(sdf.format(Calendar.getInstance().getTime()));
+								Calendar c = Calendar.getInstance();
+								int year = c.get(Calendar.YEAR);
+								if(year > 2560)
+								{
+									c.add(Calendar.YEAR, -543);
+								}
+								String dateTime = sdf.format(c.getTime());
+								updateLastConnection(dateTime);
 							} else {
 								loggedIn = false;
 								loginok = 4;
@@ -737,7 +744,14 @@ public class MapleClient {
 							loggedIn = true;
 							loginok = 0;
 							SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHH");
-							updateLastConnection(sdf.format(Calendar.getInstance().getTime()));
+							Calendar c = Calendar.getInstance();
+							int year = c.get(Calendar.YEAR);
+							if(year > 2560)
+							{
+								c.add(Calendar.YEAR, -543);
+							}
+							String dateTime = sdf.format(c.getTime());
+							updateLastConnection(dateTime);
 
 						}
 					} else {
@@ -946,13 +960,22 @@ public class MapleClient {
 			ps = con.prepareStatement("UPDATE accounts SET loggedin = ?, SessionIP = ?, lastlogin = ? WHERE id = ?");
 			ps.setInt(1, newstate);
 			ps.setString(2, serial);
-			ps.setTimestamp(3, new Timestamp(System.currentTimeMillis()));
+			Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd:HH:mm:ss");
+			Calendar c = Calendar.getInstance();
+			int year = c.get(Calendar.YEAR);
+			if(year > 2560)
+			{
+				c.add(Calendar.YEAR, -543);
+			}
+			String dateTime = sdf.format(c.getTime());
+			ps.setString(3, dateTime);
 			ps.setInt(4, getAccID());
 			ps.executeUpdate();
 			ps.close();
 			con.close();
 		} catch (SQLException e) {
-			System.err.println("error updating login state" + e);
+			System.err.println("error updating login state new state: " + e);
 		} finally {
 			try {
 				if (ps != null) {
@@ -1307,7 +1330,14 @@ public class MapleClient {
 				} finally {
 					if (RemoveInChannelServer && ch != null) {
 						SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHH");
-						updateLastConnection(sdf.format(Calendar.getInstance().getTime()));
+						Calendar c = Calendar.getInstance();
+						int year = c.get(Calendar.YEAR);
+						if(year > 2560)
+						{
+							c.add(Calendar.YEAR, -543);
+						}
+						String dateTime = sdf.format(c.getTime());
+						updateLastConnection(dateTime);
 						ch.removePlayer(player);
 						AdminTool.broadcastMessage(AdminToolPacket.Info());
 					}

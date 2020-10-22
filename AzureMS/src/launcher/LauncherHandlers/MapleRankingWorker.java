@@ -55,7 +55,11 @@ public class MapleRankingWorker implements Runnable {
                     "UPDATE characters SET rankMove = ?, worldRankMove = ?, rank = ?, worldRank = ? WHERE id = ?");
             while (result.next()) {
                 ++rank;
-                if (result.getLong("lastlogin") < lastUpdate || result.getInt("loggedin") > 0) {
+                String lastLogin = result.getString("lastlogin");
+                String lastResult = lastLogin.replaceAll(":", "");
+                lastResult = lastResult.replaceAll("-", "");
+                lastResult = lastResult.replaceAll(" ", "");
+                if (Long.parseLong(lastResult) < lastUpdate || result.getInt("loggedin") > 0) {
                     rankMove = result.getInt("rankMove");
                 }
                 rankMove += result.getInt("rank") - rank;
