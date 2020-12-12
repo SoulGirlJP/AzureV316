@@ -33,6 +33,15 @@ Contributors (growing list)
 - **Custom Bossing system**
 - **Universal Smega**: use a Tilda at the start of a message in the chatbox to send a smega
 
+## Related Features/Additions:
+- In Addition to the open source, Azure Team has some other Maplestory (AzureMS) based tools for private servers.
+  - [Discord Bot](https://github.com/Bratah123/MapleDiscBot)
+    - Feature Rich Discord Bot that the original v316 AzureMS used for majority of it's server life.
+    - Easy to setup discord bot.
+  - [Lazuli](https://github.com/TEAM-SPIRIT-Productions/Lazuli)
+    - A Python Database API made specifically to work with the current open source v316 AzureMS.
+    - Easy to use!
+
 ---
 ## Technical Specs
 |  | Target | Tested |
