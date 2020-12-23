@@ -50,6 +50,7 @@ import provider.MapleData;
 import provider.MapleDataProvider;
 import provider.MapleDataProviderFactory;
 import provider.MapleDataTool;
+import scripting.NPC.NPCScriptManager;
 import server.Items.InventoryManipulator;
 import server.Items.ItemInformation;
 import server.LifeEntity.MobEntity.MapleLifeProvider;
@@ -105,6 +106,32 @@ public class AdminCommands {
 			return "Forces the specified user in your channel to say the specified message.";
 		}
 	}
+
+    @Command(names = {"botcheck"}, parameters = "<name>", requiredType = AccountType.LOWGM)
+    public static class BotCheck extends AdminCommand {
+        @Override
+        public int execute (MapleCharacter chr, String[] args) {
+
+            if(args.length <= 1) {
+                chr.dropMessage(1, "!botcheck <name>");
+            }
+            else {
+                String playerName = args[1];
+                MapleCharacter targetPlayer = chr.getClient().getChannelServer().getPlayerStorage().getCharacterByName(playerName);
+                if(targetPlayer == null) {
+                    chr.dropMessage(5, playerName + " is not online.");
+                }
+                else {
+                    targetPlayer.dispose();
+                    // Dispose all their actions before forcing them to open an NPC
+                    NPCScriptManager.getInstance().start(targetPlayer.getClient(), 9000344); // bot check NPC
+                }
+            }
+            return 1;
+        }
+        @Override
+        public String getDescription(){return "Sends a player an NPC dialogue bot check.";}
+    }
 	
 	@Command(names = {"charinfo"}, parameters = "<name>", requiredType = AccountType.LOWGM)
 	public static class CharInfo extends AdminCommand {

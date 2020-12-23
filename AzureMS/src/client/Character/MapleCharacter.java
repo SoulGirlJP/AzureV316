@@ -12319,6 +12319,11 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
         return -1; // ë¯¸ì¡´?¬ì? -1
     }
 
+    public void dispose(){
+        getClient().sendPacket(MainPacketCreator.SkillUseResult((byte) 1));
+        getClient().sendPacket(MainPacketCreator.resetActions(this));
+    }
+
     public long getDojoStartTime() {
         return dojoStartTime;
     }
