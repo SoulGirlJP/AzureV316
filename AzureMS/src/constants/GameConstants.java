@@ -3652,7 +3652,12 @@ public class GameConstants {
     }
 
     public static boolean isRing(int itemId) {
-        return itemId >= 1112000 && itemId < 1113000;
+        return itemId >= 1112000 && itemId < 1114000;
+    }
+
+    public static boolean isEmblem(final int itemId)
+    {
+        return (itemId >= 1190000 && itemId <= 1191109);
     }
 
     public static boolean isEffectRing(int itemid) {
