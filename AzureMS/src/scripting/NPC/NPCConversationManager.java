@@ -881,6 +881,32 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
 		lastMsg = 5;
 	}
 
+    public void sendGetTextNoESC(String text)
+    {
+        String def = "";
+        int min = 0;
+        int max = 0;
+        if (lastMsg > -1)
+        {
+            return;
+        }
+        if (text.contains("#L"))
+        { // will dc otherwise!
+            sendSimple(text);
+            return;
+        }
+        NPCTalk t = new NPCTalk((byte) 4, id, (byte) 4);
+        t.setParam((byte) 1);
+        t.setNpcIDD(id);
+        t.setText(text);
+        t.setDef(def);
+        t.setMin(min);
+        t.setMax(max);
+
+        c.getSession().writeAndFlush(MainPacketCreator.getNPCTalk(t));
+        lastMsg = 4;
+    }
+
 	public void sendGetText(String text)
 	{
 		sendGetText(id, text, "", 0, 0);
