@@ -75,8 +75,10 @@ public class CharLoginHandler {
                 case 0:
                     //생성 가능한 아이디일때
                     if (canjoin == 1) {
-                        //AutoRegister.registerAccount(c, login, pwd);
-                        c.send(MainPacketCreator.serverNotice(1, ServerConstants.serverName + " Successful account creation !\r\nPlease log in again."));
+                        if(ServerConstants.AUTO_REGISTER) {
+                            AutoRegister.registerAccount(c, login, pwd);
+                            c.send(MainPacketCreator.serverNotice(1, ServerConstants.serverName + " Successful account creation !\r\nPlease log in again."));
+                        }
                         c.send(LoginPacket.getLoginFailed(20));
                         return;
                     } else {

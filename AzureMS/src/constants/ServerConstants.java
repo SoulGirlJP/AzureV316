@@ -145,6 +145,8 @@ public class ServerConstants {
     
     public static final char PLAYER_COMMAND_PREFIX = '@';
     public static final char ADMIN_COMMAND_PREFIX = '!';
+
+    public static final boolean AUTO_REGISTER = false;
     
     static {
         try {
