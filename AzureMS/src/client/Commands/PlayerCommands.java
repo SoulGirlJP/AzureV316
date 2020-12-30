@@ -14,9 +14,12 @@ import constants.GameConstants;
 import constants.ServerConstants;
 import scripting.NPC.NPCScriptManager;
 import server.Items.InventoryManipulator;
+import server.Maps.MapObject.MapleMapObject;
 import server.Maps.MapleMapHandling.MapleMap;
 import server.Maps.MapleMapHandling.MaplePortal;
 import tools.RandomStream.Randomizer;
+
+import java.util.Objects;
 
 public class PlayerCommands {
     @Command(names = {"help"}, parameters = "", requiredType = AccountType.PLAYER) 
@@ -604,4 +607,35 @@ public class PlayerCommands {
 			return "Opens the rebirth npc.";
 		}
 	}
+
+    @Command(names = {"fm"}, parameters = "", requiredType = AccountType.PLAYER)
+    public static class FM extends PlayerCommand {
+        @Override
+        public int execute(MapleCharacter c, String[] args) {
+            c.changeMap(910000000, 0); // FM
+            return 1;
+        }
+
+        @Override
+        public String getDescription() {
+            return "Warps you to FM.";
+        }
+    }
+
+    @Command(names = {"mob"}, parameters = "", requiredType = AccountType.PLAYER)
+    public static class Mob extends PlayerCommand {
+        @Override
+        public int execute(MapleCharacter chr, String[] args) {
+            MapleMapObject mob = chr.getMap().getAllMonster().get(1);
+            int oid = mob.getObjectId();
+            String mobHp = "Mob HP: " + Objects.requireNonNull(chr.getMap().getMonsterByOid(oid)).getHp();
+            chr.dropMessage(6, mobHp);
+            return 1;
+        }
+
+        @Override
+        public String getDescription() {
+            return "Gives you the hp of the nearest mob.";
+        }
+    }
 }

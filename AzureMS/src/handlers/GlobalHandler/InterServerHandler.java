@@ -478,8 +478,8 @@ public class InterServerHandler {
         /* Pendant slot */
         if (!c.getPlayer().getStat().getJC()) {
             String[] text = {ServerConstants.serverName+" Welcome to the server.", ServerConstants.serverName+" Welcome to the server!"};
-            String text3 = player.getName() + "Sir "+ " " + text[(int) java.lang.Math.floor(java.lang.Math.random() * text.length)];
-            WorldBroadcasting.broadcastMessage(UIPacket.detailShowInfo(text3 + " Reception : " + ChannelServer.getOnlineConnections() + "", false));
+            String text3 = player.getName() + "," + text[(int) java.lang.Math.floor(java.lang.Math.random() * text.length)];
+            WorldBroadcasting.broadcastMessage(UIPacket.detailShowInfo(text3 + " Players Online: " + ChannelServer.getOnlineConnections() + "", false));
             c.getSession().write(MainPacketCreator.serverMessage(ServerConstants.serverMessage));
             c.getPlayer().getStat().setJC(true);
         }     
