@@ -35,9 +35,13 @@ Contributors (growing list)
 
 ## Related Features/Additions:
 - In Addition to the open source, Azure Team has some other Maplestory (AzureMS) based tools for private servers.
-  - [Discord Bot](https://github.com/Bratah123/MapleDiscBot)
-    - Feature Rich Discord Bot that the original v316 AzureMS used for majority of it's server life.
-    - Easy to setup discord bot.
+  - ~~[Discord Bot](https://github.com/Bratah123/MapleDiscBot)
+      ~~- Feature Rich Discord Bot that the original v316 AzureMS used for majority of it's server life.
+      ~~- Easy to setup discord bot.
+    - Deprecated bot due to API changes breaking it's core mechanics!
+  - [NewDiscBot](https://github.com/TEAM-SPIRIT-Productions/Lapis)
+    - Feature Rich Discord Bot that attempts to be SUPER plug-n-play
+    - Light and easy to setup bot
   - [Lazuli](https://github.com/TEAM-SPIRIT-Productions/Lazuli)
     - A Python Database API made specifically to work with the current open source v316 AzureMS.
     - Easy to use!
