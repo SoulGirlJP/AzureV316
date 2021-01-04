@@ -41,7 +41,7 @@ Contributors (growing list)
       ~- Easy to setup discord bot.~
       
     - Deprecated bot due to API changes breaking it's core mechanics
-  - [NewDiscBot](https://github.com/TEAM-SPIRIT-Productions/Lapis)
+  - [Lapis](https://github.com/TEAM-SPIRIT-Productions/Lapis)
     - Feature Rich Discord Bot that attempts to be SUPER plug-n-play
     - Light and easy to setup bot
   - [Lazuli](https://github.com/TEAM-SPIRIT-Productions/Lazuli)
