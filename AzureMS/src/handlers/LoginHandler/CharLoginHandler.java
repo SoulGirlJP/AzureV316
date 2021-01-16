@@ -72,20 +72,20 @@ public class CharLoginHandler {
             return;
         }
         switch (checkId) {
-                case 0:
-                    //생성 가능한 아이디일때
-                    if (canjoin == 1) {
-                        if(ServerConstants.AUTO_REGISTER) {
-                            AutoRegister.registerAccount(c, login, pwd);
-                            c.send(MainPacketCreator.serverNotice(1, ServerConstants.serverName + " Successful account creation !\r\nPlease log in again."));
-                        }
-                        c.send(LoginPacket.getLoginFailed(20));
-                        return;
-                    } else {
-                        c.send(MainPacketCreator.serverNotice(1, "Rebooting server, please try again later."));
-                        c.send(LoginPacket.getLoginFailed(20));
+            case 0:
+                //생성 가능한 아이디일때
+                if (canjoin == 1) {
+                    if(ServerConstants.AUTO_REGISTER) {
+                        AutoRegister.registerAccount(c, login, pwd);
+                        c.send(MainPacketCreator.serverNotice(1, ServerConstants.serverName + " Successful account creation !\r\nPlease log in again."));
                     }
-                    break;
+                    c.send(LoginPacket.getLoginFailed(20));
+                    return;
+                } else {
+                    c.send(MainPacketCreator.serverNotice(1, "Rebooting server, please try again later."));
+                    c.send(LoginPacket.getLoginFailed(20));
+                }
+                break;
             case 1:
                 // Account Failed
                 c.send(MainPacketCreator.serverNotice(1, "No account found.\r\n" + ServerConstants.serverName + "\r\nPlease register an account at\r\nAzureMS.online"));
@@ -114,6 +114,7 @@ public class CharLoginHandler {
 
         int loginok = c.login(login, pwd, ipBan || macBan);
         Calendar tempbannedTill = c.getTempBanCalendar();
+
         if (loginok == 0 && (ipBan || macBan)) {
             loginok = 3;
             if (ipBan || macBan) {
