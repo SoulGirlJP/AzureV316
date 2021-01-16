@@ -147,6 +147,7 @@ public class ServerConstants {
     public static final char ADMIN_COMMAND_PREFIX = '!';
 
     public static final boolean AUTO_REGISTER = false;
+    public static final int GENSALT_ITERATIONS = 10;
     
     static {
         try {

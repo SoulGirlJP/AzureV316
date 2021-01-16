@@ -24,6 +24,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 import javax.script.ScriptEngine;
 
+import com.sun.security.ntlm.Server;
 import connections.Database.MYSQLException;
 import client.Character.MapleCharacter;
 import client.Character.MapleCharacterUtil;
@@ -716,7 +717,7 @@ public class MapleClient {
 
                 if(!hashed) {
                      PreparedStatement preparedStatement = con.prepareStatement("UPDATE accounts SET password = ? WHERE name = ?");
-                     preparedStatement.setString(1, BCrypt.hashpw(password, BCrypt.gensalt(10)));
+                     preparedStatement.setString(1, BCrypt.hashpw(password, BCrypt.gensalt(ServerConstants.GENSALT_ITERATIONS)));
                      preparedStatement.setString(2, login);
                      preparedStatement.executeUpdate();
                      preparedStatement.close();

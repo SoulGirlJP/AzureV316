@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 import client.MapleClient;
+import com.sun.security.ntlm.Server;
 import constants.ServerConstants;
 import connections.Database.MYSQL;
 import org.mindrot.jbcrypt.BCrypt;
@@ -67,7 +68,7 @@ public class AutoRegister {
         Connection connect = null;
         PreparedStatement query = null;
         ResultSet result = null;
-        String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt(10)); // Hash passwords with 10 iterations
+        String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt(ServerConstants.GENSALT_ITERATIONS)); // Hash passwords with 10 iterations
         try {
             connect = MYSQL.getConnection();
             query = connect.prepareStatement(
