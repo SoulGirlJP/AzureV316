@@ -34,36 +34,22 @@ Contributors (growing list)
 - **Universal Smega**: use a Tilda at the start of a message in the chatbox to send a smega
 
 ## Related Features/Additions:
-- In Addition to the open source, Azure Team has some other Maplestory (AzureMS) based tools for private servers.
-  - ~[Discord Bot](https://github.com/Bratah123/MapleDiscBot)~
-  
-      ~- Feature Rich Discord Bot that the original v316 AzureMS used for majority of it's server life.~
-      ~- Easy to setup discord bot.~
-      
-    - Deprecated bot due to API changes breaking it's core mechanics
-  - [Lapis](https://github.com/TEAM-SPIRIT-Productions/Lapis)
-    - Feature Rich Discord Bot that attempts to be SUPER plug-n-play
-    - Light and easy to setup bot
-  - [Lazuli](https://github.com/TEAM-SPIRIT-Productions/Lazuli)
-    - A Python Database API made specifically to work with the current open source v316 AzureMS.
-    - Easy to use!
+- In addition to the server source code repository, the Azure team also has other AzureMS-based tools.
+  - ~**[Discord Bot](https://github.com/Bratah123/MapleDiscBot)**~  
+      - ~Feature-rich Discord bot that the original v316 AzureMS used for majority of its server life~  
+      - ~Easy to set-up~  
+    - *Deprecated: Breaking API changes in the discord.js module*  
+  - **[Lapis](https://github.com/TEAM-SPIRIT-Productions/Lapis)**  
+    - Feature-rich Discord bot that attempts to be SUPER plug-n-play  
+    - Lightweight and easy to set-up *(see [Wiki](https://github.com/TEAM-SPIRIT-Productions/Lapis/wiki/General-Flow))*  
+    - Built on Lazuli (see below)!  
+  - **[Lazuli](https://github.com/TEAM-SPIRIT-Productions/Lazuli)**  
+    - A Python-based API for connecting to AzureMS-based servers.  
+    - Easy to use; complete with [example code](https://github.com/TEAM-SPIRIT-Productions/Lazuli/wiki/Sample-Code-Fragments#loading-a-database)!  
 
 ---
-## Technical Specs
-|  | Target | Tested |
-| --- | --- | --- |
-| Java SDK Version | Java 8 Update 231 | Java 8 Update 261 |
-| IDE | IntelliJ | IntelliJ |
-| DB Management System | MariaDB | MySQL 5.7.28 |
-| DB Administration Tool | HeidiSQL | MySQL Workbench 8.0 CE with WAMP 3.2 |
-
-Note: Scripts (e.g. NPC scripts) are written in JavaScript.
-
-This source inherits many Odin-like traits.
-This source uses a mixture of architectures; for instance, layered architecture where scripts, business logic, and data are kept distinct. Note also, within the business logic, the use of MVC-like concepts.
-
-
-**Instructions for use:**
+## Quick Start Reference:  
+### ***See our [Wiki](https://github.com/SoulGirlJP/AzureV316/wiki/Setup) for a more detailed guide (with screenshots)!***
 1. `Clone` or `Fork` this repository
 2. Setup the DB management system (i.e. MariaDB or MySQL Workbench)
     - By default the username may be set to `root` and the password left empty, with SSL disabled. Port should be set to `3306`.
