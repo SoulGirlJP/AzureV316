@@ -53,7 +53,7 @@ function action(mode, type, selection) {
             }
             return cm.dispose();
         }
-        else if(answer != randomCode) {
+        else {
             status -= 2;
             attempts++;
             // This is where you wanna add auto banning if they pass a certain amount of attempts
