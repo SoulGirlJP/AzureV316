@@ -132,6 +132,22 @@ public class AdminCommands {
         @Override
         public String getDescription(){return "Sends a player an NPC dialogue bot check.";}
     }
+
+    @Command(names = {"invcheck"}, parameters = "", requiredType = AccountType.LOWGM)
+    public static class InvCheck extends AdminCommand {
+        @Override
+        public int execute(MapleCharacter chr, String[] args) {
+            int invCheckId = 9010017;
+            chr.dispose();
+            NPCScriptManager.getInstance().start(chr.getClient(),invCheckId);
+            return 1;
+        }
+
+        @Override
+        public String getDescription() {
+            return "Allows you to check another online players inventory.";
+        }
+    }
 	
 	@Command(names = {"charinfo"}, parameters = "<name>", requiredType = AccountType.LOWGM)
 	public static class CharInfo extends AdminCommand {
