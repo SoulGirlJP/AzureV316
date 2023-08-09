@@ -5,7 +5,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 import client.MapleClient;
-import com.sun.security.ntlm.Server;
 import constants.ServerConstants;
 import connections.Database.MYSQL;
 import org.mindrot.jbcrypt.BCrypt;

@@ -3,7 +3,7 @@ AzureMS v316 KMS,
 
 i will update it and rewrite it from scratch later on to get a better understanding about everything.
 
-Contributors (growing list)
+Contributors :
 - Dipi 
 - Brandon
 - Desc
@@ -35,10 +35,7 @@ Contributors (growing list)
 
 ## Related Features/Additions:
 - In addition to the server source code repository, the Azure team also has other AzureMS-based tools.
-  - ~**[Discord Bot](https://github.com/Bratah123/MapleDiscBot)**~  
-      - ~Feature-rich Discord bot that the original v316 AzureMS used for majority of its server life~  
-      - ~Easy to set-up~  
-    - *Deprecated: Breaking API changes in the discord.js module*  
+
   - **[Lapis](https://github.com/TEAM-SPIRIT-Productions/Lapis)**  
     - Feature-rich Discord bot that attempts to be SUPER plug-n-play  
     - Lightweight and easy to set-up *(see [Wiki](https://github.com/TEAM-SPIRIT-Productions/Lapis/wiki/General-Flow))*  
